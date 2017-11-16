@@ -1,0 +1,27 @@
+C:\Users\Administrator.DOMAINADMINS0\Desktop\New folder\Vezba5 (resenje)\ClientApp\obj\x86\Debug\ClientApp.csprojResolveAssemblyReference.cache
+C:\Users\Administrator.DOMAINADMINS0\Desktop\New folder\Vezba5 (resenje)\ClientApp\bin\Debug\ClientApp.exe
+C:\Users\Administrator.DOMAINADMINS0\Desktop\New folder\Vezba5 (resenje)\ClientApp\bin\Debug\ClientApp.pdb
+C:\Users\Administrator.DOMAINADMINS0\Desktop\New folder\Vezba5 (resenje)\ClientApp\bin\Debug\Contracts.dll
+C:\Users\Administrator.DOMAINADMINS0\Desktop\New folder\Vezba5 (resenje)\ClientApp\bin\Debug\Manager.dll
+C:\Users\Administrator.DOMAINADMINS0\Desktop\New folder\Vezba5 (resenje)\ClientApp\bin\Debug\Contracts.pdb
+C:\Users\Administrator.DOMAINADMINS0\Desktop\New folder\Vezba5 (resenje)\ClientApp\bin\Debug\Manager.pdb
+C:\Users\Administrator.DOMAINADMINS0\Desktop\New folder\Vezba5 (resenje)\ClientApp\obj\x86\Debug\ClientApp.exe
+C:\Users\Administrator.DOMAINADMINS0\Desktop\New folder\Vezba5 (resenje)\ClientApp\obj\x86\Debug\ClientApp.pdb
+C:\Users\Danka\Desktop\nrs\fax\2017-2018\Sigurnost i Bezbednost\Vezba5 (resenje)\ClientApp\obj\x86\Debug\ClientApp.csprojResolveAssemblyReference.cache
+C:\Users\Danka\Desktop\nrs\fax\2017-2018\Sigurnost i Bezbednost\Vezba5 (resenje)\ClientApp\bin\Debug\ClientApp.exe
+C:\Users\Danka\Desktop\nrs\fax\2017-2018\Sigurnost i Bezbednost\Vezba5 (resenje)\ClientApp\bin\Debug\ClientApp.pdb
+C:\Users\Danka\Desktop\nrs\fax\2017-2018\Sigurnost i Bezbednost\Vezba5 (resenje)\ClientApp\bin\Debug\Contracts.dll
+C:\Users\Danka\Desktop\nrs\fax\2017-2018\Sigurnost i Bezbednost\Vezba5 (resenje)\ClientApp\bin\Debug\Manager.dll
+C:\Users\Danka\Desktop\nrs\fax\2017-2018\Sigurnost i Bezbednost\Vezba5 (resenje)\ClientApp\bin\Debug\Contracts.pdb
+C:\Users\Danka\Desktop\nrs\fax\2017-2018\Sigurnost i Bezbednost\Vezba5 (resenje)\ClientApp\bin\Debug\Manager.pdb
+C:\Users\Danka\Desktop\nrs\fax\2017-2018\Sigurnost i Bezbednost\Vezba5 (resenje)\ClientApp\obj\x86\Debug\ClientApp.exe
+C:\Users\Danka\Desktop\nrs\fax\2017-2018\Sigurnost i Bezbednost\Vezba5 (resenje)\ClientApp\obj\x86\Debug\ClientApp.pdb
+C:\Users\Administrator.DOMAINADMINS0\Desktop\projekat\Vezba5 (resenje)\ClientApp\bin\Debug\ClientApp.exe
+C:\Users\Administrator.DOMAINADMINS0\Desktop\projekat\Vezba5 (resenje)\ClientApp\bin\Debug\ClientApp.pdb
+C:\Users\Administrator.DOMAINADMINS0\Desktop\projekat\Vezba5 (resenje)\ClientApp\bin\Debug\Contracts.dll
+C:\Users\Administrator.DOMAINADMINS0\Desktop\projekat\Vezba5 (resenje)\ClientApp\bin\Debug\Manager.dll
+C:\Users\Administrator.DOMAINADMINS0\Desktop\projekat\Vezba5 (resenje)\ClientApp\bin\Debug\Contracts.pdb
+C:\Users\Administrator.DOMAINADMINS0\Desktop\projekat\Vezba5 (resenje)\ClientApp\bin\Debug\Manager.pdb
+C:\Users\Administrator.DOMAINADMINS0\Desktop\projekat\Vezba5 (resenje)\ClientApp\obj\x86\Debug\ClientApp.csprojResolveAssemblyReference.cache
+C:\Users\Administrator.DOMAINADMINS0\Desktop\projekat\Vezba5 (resenje)\ClientApp\obj\x86\Debug\ClientApp.exe
+C:\Users\Administrator.DOMAINADMINS0\Desktop\projekat\Vezba5 (resenje)\ClientApp\obj\x86\Debug\ClientApp.pdb

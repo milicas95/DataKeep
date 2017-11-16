@@ -1,0 +1,10 @@
+D:\Doktorske\PREDMETI\ESI\00 ESI_VEZBE\02 - Enkripcija asymm\02 Exercise\Exercise_02\Manager\bin\x64\Debug\Manager.dll
+D:\Doktorske\PREDMETI\ESI\00 ESI_VEZBE\02 - Enkripcija asymm\02 Exercise\Exercise_02\Manager\bin\x64\Debug\Manager.pdb
+D:\Doktorske\PREDMETI\ESI\00 ESI_VEZBE\02 - Enkripcija asymm\02 Exercise\Exercise_02\Manager\obj\x64\Debug\ResolveAssemblyReference.cache
+D:\Doktorske\PREDMETI\ESI\00 ESI_VEZBE\02 - Enkripcija asymm\02 Exercise\Exercise_02\Manager\obj\x64\Debug\Manager.dll
+D:\Doktorske\PREDMETI\ESI\00 ESI_VEZBE\02 - Enkripcija asymm\02 Exercise\Exercise_02\Manager\obj\x64\Debug\Manager.pdb
+D:\Doktorske\PREDMETI\ESI\00 ESI_VEZBE\02 - Enkripcija asymm\02 Exercise\Exercise_02 - Testing\Manager\bin\x64\Debug\Manager.dll
+D:\Doktorske\PREDMETI\ESI\00 ESI_VEZBE\02 - Enkripcija asymm\02 Exercise\Exercise_02 - Testing\Manager\bin\x64\Debug\Manager.pdb
+D:\Doktorske\PREDMETI\ESI\00 ESI_VEZBE\02 - Enkripcija asymm\02 Exercise\Exercise_02 - Testing\Manager\obj\x64\Debug\ResolveAssemblyReference.cache
+D:\Doktorske\PREDMETI\ESI\00 ESI_VEZBE\02 - Enkripcija asymm\02 Exercise\Exercise_02 - Testing\Manager\obj\x64\Debug\Manager.dll
+D:\Doktorske\PREDMETI\ESI\00 ESI_VEZBE\02 - Enkripcija asymm\02 Exercise\Exercise_02 - Testing\Manager\obj\x64\Debug\Manager.pdb

@@ -1,0 +1,10 @@
+D:\Doktorske\PREDMETI\ESI\00 ESI_VEZBE\02 - Enkripcija asymm\02 Exercise\Exercise_02\Contracts\bin\x64\Debug\Contracts.dll
+D:\Doktorske\PREDMETI\ESI\00 ESI_VEZBE\02 - Enkripcija asymm\02 Exercise\Exercise_02\Contracts\bin\x64\Debug\Contracts.pdb
+D:\Doktorske\PREDMETI\ESI\00 ESI_VEZBE\02 - Enkripcija asymm\02 Exercise\Exercise_02\Contracts\obj\x64\Debug\ResolveAssemblyReference.cache
+D:\Doktorske\PREDMETI\ESI\00 ESI_VEZBE\02 - Enkripcija asymm\02 Exercise\Exercise_02\Contracts\obj\x64\Debug\Contracts.dll
+D:\Doktorske\PREDMETI\ESI\00 ESI_VEZBE\02 - Enkripcija asymm\02 Exercise\Exercise_02\Contracts\obj\x64\Debug\Contracts.pdb
+D:\Doktorske\PREDMETI\ESI\00 ESI_VEZBE\02 - Enkripcija asymm\02 Exercise\Exercise_02 - Testing\Contracts\bin\x64\Debug\Contracts.dll
+D:\Doktorske\PREDMETI\ESI\00 ESI_VEZBE\02 - Enkripcija asymm\02 Exercise\Exercise_02 - Testing\Contracts\bin\x64\Debug\Contracts.pdb
+D:\Doktorske\PREDMETI\ESI\00 ESI_VEZBE\02 - Enkripcija asymm\02 Exercise\Exercise_02 - Testing\Contracts\obj\x64\Debug\ResolveAssemblyReference.cache
+D:\Doktorske\PREDMETI\ESI\00 ESI_VEZBE\02 - Enkripcija asymm\02 Exercise\Exercise_02 - Testing\Contracts\obj\x64\Debug\Contracts.dll
+D:\Doktorske\PREDMETI\ESI\00 ESI_VEZBE\02 - Enkripcija asymm\02 Exercise\Exercise_02 - Testing\Contracts\obj\x64\Debug\Contracts.pdb

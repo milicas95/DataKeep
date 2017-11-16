@@ -1,0 +1,10 @@
+C:\Users\Danka\Desktop\nrs\fax\2017-2018\Sigurnost i Bezbednost\Vezba5 (resenje)\DBparam\bin\Debug\DBparam.dll
+C:\Users\Danka\Desktop\nrs\fax\2017-2018\Sigurnost i Bezbednost\Vezba5 (resenje)\DBparam\bin\Debug\DBparam.pdb
+C:\Users\Danka\Desktop\nrs\fax\2017-2018\Sigurnost i Bezbednost\Vezba5 (resenje)\DBparam\obj\Debug\DBparam.csprojResolveAssemblyReference.cache
+C:\Users\Danka\Desktop\nrs\fax\2017-2018\Sigurnost i Bezbednost\Vezba5 (resenje)\DBparam\obj\Debug\DBparam.dll
+C:\Users\Danka\Desktop\nrs\fax\2017-2018\Sigurnost i Bezbednost\Vezba5 (resenje)\DBparam\obj\Debug\DBparam.pdb
+C:\Users\Administrator.DOMAINADMINS0\Desktop\projekat\Vezba5 (resenje)\DBparam\bin\Debug\DBparam.dll
+C:\Users\Administrator.DOMAINADMINS0\Desktop\projekat\Vezba5 (resenje)\DBparam\bin\Debug\DBparam.pdb
+C:\Users\Administrator.DOMAINADMINS0\Desktop\projekat\Vezba5 (resenje)\DBparam\obj\Debug\DBparam.csprojResolveAssemblyReference.cache
+C:\Users\Administrator.DOMAINADMINS0\Desktop\projekat\Vezba5 (resenje)\DBparam\obj\Debug\DBparam.dll
+C:\Users\Administrator.DOMAINADMINS0\Desktop\projekat\Vezba5 (resenje)\DBparam\obj\Debug\DBparam.pdb

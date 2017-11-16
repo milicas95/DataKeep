@@ -1,0 +1,9 @@
+C:\Users\Administrator.DOMAINADMINS0\Desktop\New folder\Vezba5 (resenje)\Contracts\bin\Debug\Contracts.dll
+C:\Users\Administrator.DOMAINADMINS0\Desktop\New folder\Vezba5 (resenje)\Contracts\bin\Debug\Contracts.pdb
+C:\Users\Administrator.DOMAINADMINS0\Desktop\New folder\Vezba5 (resenje)\Contracts\obj\Debug\Contracts.dll
+C:\Users\Administrator.DOMAINADMINS0\Desktop\New folder\Vezba5 (resenje)\Contracts\obj\Debug\Contracts.pdb
+C:\Users\Danka\Desktop\nrs\fax\2017-2018\Sigurnost i Bezbednost\Vezba5 (resenje)\Contracts\bin\Debug\Contracts.dll
+C:\Users\Danka\Desktop\nrs\fax\2017-2018\Sigurnost i Bezbednost\Vezba5 (resenje)\Contracts\bin\Debug\Contracts.pdb
+C:\Users\Danka\Desktop\nrs\fax\2017-2018\Sigurnost i Bezbednost\Vezba5 (resenje)\Contracts\obj\Debug\Contracts.csprojResolveAssemblyReference.cache
+C:\Users\Danka\Desktop\nrs\fax\2017-2018\Sigurnost i Bezbednost\Vezba5 (resenje)\Contracts\obj\Debug\Contracts.dll
+C:\Users\Danka\Desktop\nrs\fax\2017-2018\Sigurnost i Bezbednost\Vezba5 (resenje)\Contracts\obj\Debug\Contracts.pdb

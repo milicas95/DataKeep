@@ -1,0 +1,18 @@
+D:\Doktorske\PREDMETI\ESI\00 ESI_VEZBE\02 - Enkripcija asymm\02 Exercise\Exercise_02\ClientApp\bin\x64\Debug\ClientApp.exe
+D:\Doktorske\PREDMETI\ESI\00 ESI_VEZBE\02 - Enkripcija asymm\02 Exercise\Exercise_02\ClientApp\bin\x64\Debug\ClientApp.pdb
+D:\Doktorske\PREDMETI\ESI\00 ESI_VEZBE\02 - Enkripcija asymm\02 Exercise\Exercise_02\ClientApp\bin\x64\Debug\Contracts.dll
+D:\Doktorske\PREDMETI\ESI\00 ESI_VEZBE\02 - Enkripcija asymm\02 Exercise\Exercise_02\ClientApp\bin\x64\Debug\Manager.dll
+D:\Doktorske\PREDMETI\ESI\00 ESI_VEZBE\02 - Enkripcija asymm\02 Exercise\Exercise_02\ClientApp\bin\x64\Debug\Contracts.pdb
+D:\Doktorske\PREDMETI\ESI\00 ESI_VEZBE\02 - Enkripcija asymm\02 Exercise\Exercise_02\ClientApp\bin\x64\Debug\Manager.pdb
+D:\Doktorske\PREDMETI\ESI\00 ESI_VEZBE\02 - Enkripcija asymm\02 Exercise\Exercise_02\ClientApp\obj\x64\Debug\ResolveAssemblyReference.cache
+D:\Doktorske\PREDMETI\ESI\00 ESI_VEZBE\02 - Enkripcija asymm\02 Exercise\Exercise_02\ClientApp\obj\x64\Debug\ClientApp.exe
+D:\Doktorske\PREDMETI\ESI\00 ESI_VEZBE\02 - Enkripcija asymm\02 Exercise\Exercise_02\ClientApp\obj\x64\Debug\ClientApp.pdb
+D:\Doktorske\PREDMETI\ESI\00 ESI_VEZBE\02 - Enkripcija asymm\02 Exercise\Exercise_02 - Testing\ClientApp\bin\x64\Debug\ClientApp.exe
+D:\Doktorske\PREDMETI\ESI\00 ESI_VEZBE\02 - Enkripcija asymm\02 Exercise\Exercise_02 - Testing\ClientApp\bin\x64\Debug\ClientApp.pdb
+D:\Doktorske\PREDMETI\ESI\00 ESI_VEZBE\02 - Enkripcija asymm\02 Exercise\Exercise_02 - Testing\ClientApp\bin\x64\Debug\Contracts.dll
+D:\Doktorske\PREDMETI\ESI\00 ESI_VEZBE\02 - Enkripcija asymm\02 Exercise\Exercise_02 - Testing\ClientApp\bin\x64\Debug\Manager.dll
+D:\Doktorske\PREDMETI\ESI\00 ESI_VEZBE\02 - Enkripcija asymm\02 Exercise\Exercise_02 - Testing\ClientApp\bin\x64\Debug\Contracts.pdb
+D:\Doktorske\PREDMETI\ESI\00 ESI_VEZBE\02 - Enkripcija asymm\02 Exercise\Exercise_02 - Testing\ClientApp\bin\x64\Debug\Manager.pdb
+D:\Doktorske\PREDMETI\ESI\00 ESI_VEZBE\02 - Enkripcija asymm\02 Exercise\Exercise_02 - Testing\ClientApp\obj\x64\Debug\ResolveAssemblyReference.cache
+D:\Doktorske\PREDMETI\ESI\00 ESI_VEZBE\02 - Enkripcija asymm\02 Exercise\Exercise_02 - Testing\ClientApp\obj\x64\Debug\ClientApp.exe
+D:\Doktorske\PREDMETI\ESI\00 ESI_VEZBE\02 - Enkripcija asymm\02 Exercise\Exercise_02 - Testing\ClientApp\obj\x64\Debug\ClientApp.pdb
