@@ -41,6 +41,21 @@ namespace ClientApp
 
 			factory = this.CreateChannel();
 		}
+
+        public bool Add(string database, string userName)
+        {
+            try
+            {
+                return factory.Add(database, userName); 
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("[Add] Error={0}", e.Message);
+                return false;
+            }
+
+        }
+
         public int AverageUsageInCity(string city, string userName)
         {
             try
@@ -64,6 +79,19 @@ namespace ClientApp
             {
                 Console.WriteLine("[AverageUsageInRegion] Error={0}", e.Message);
                 return -1;
+            }
+        }
+
+        public bool Edit(string database, string userName)
+        {
+            try
+            {
+                return factory.Edit(database, userName);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("[Edit] Error={0}", e.Message);
+                return false;
             }
         }
 

@@ -8,15 +8,15 @@ namespace DBparam
 {
     public class DBParam
     {
-        private int id;
+        private static int id=0;     
         private string region;
         private string city;
         private int year;
         private string month;
         private int elEnergySpent;
 
-        public DBParam(int ID, string Region, string City, int Year, string Month, int ElEnergySpent) {
-            id = ID;
+        public DBParam(string Region, string City, int Year, string Month, int ElEnergySpent) {
+            id = this.ID;
             region = Region;
             city = City;
             year = Year;
@@ -26,6 +26,8 @@ namespace DBparam
 
         public int ID
         {
+            set { id++; }
+
             get { return id; }
         }
 

@@ -17,5 +17,11 @@ namespace Contracts
 
         [OperationContract]
         string HighestSpenderInRegion(string region, string userName);
+
+        [OperationContract]
+        bool Add(string database,string userName);
+
+        [OperationContract]
+        bool Edit(string database,string userName);
     }
 }
