@@ -50,7 +50,7 @@ namespace ClientApp
                     int action;
                     do
                     {
-                        Console.WriteLine("===============================================");
+                        Console.WriteLine("================================================");
                         Console.WriteLine("Wellcome {0} chose your action:", clientCertCN);
                         Console.WriteLine("To create new data base press 1");
                         Console.WriteLine("To delete exsisting data base press 2");
@@ -66,6 +66,33 @@ namespace ClientApp
                         switch (action)
                         {
                             case 0:
+                                continue;
+                            case 5:
+                                Console.WriteLine("What is the city?");
+                                string city = Console.ReadLine();
+                                int averageCity = proxy.AverageUsageInCity(city, clientCertCN);
+                                if (averageCity == -1)
+                                    Console.WriteLine("You don't have promission to use this method");
+                                else
+                                    Console.WriteLine("Average usage in {0} is {1}", city, averageCity);
+                                continue;
+                            case 6:
+                                Console.WriteLine("What is the region?");
+                                string region = Console.ReadLine();
+                                int averageRegion = proxy.AverageUsageInRegion(region, clientCertCN);
+                                if (averageRegion == -1)
+                                    Console.WriteLine("You don't have promission to use this method");
+                                else
+                                    Console.WriteLine("Average usage in {0} is {1}", region, averageRegion);
+                                continue;
+                            case 7:
+                                Console.WriteLine("What is the region?");
+                                string reg = Console.ReadLine();
+                                string highestSpender = proxy.HighestSpenderInRegion(reg, clientCertCN);
+                                if (highestSpender == "You can't use this option")
+                                    Console.WriteLine("You don't have promission to use this method");
+                                else
+                                    Console.WriteLine("Highest spender in {0} is {1}", reg, highestSpender);
                                 continue;
                             default:
                                 continue;

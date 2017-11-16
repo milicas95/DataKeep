@@ -15,7 +15,8 @@ namespace ServiceApp
 	{
 		static void Main(string[] args)
 		{
-			/// srvCertCN.SubjectName should be set to the service's username. .NET WindowsIdentity class provides information about Windows user running the given process
+            /// srvCertCN.SubjectName should be set to the service's username. .NET WindowsIdentity class provides information about Windows user running the given process
+            Console.ReadLine();
 			string srvCertCN = Formatter.ParseName(WindowsIdentity.GetCurrent().Name);
             IdentityReferenceCollection clGroups = WindowsIdentity.GetCurrent().Groups;
             bool found = false;
