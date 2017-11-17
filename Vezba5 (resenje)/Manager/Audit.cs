@@ -174,6 +174,58 @@ namespace Manager
             }
         }
 
+        public static void ReadSuccess(string dbName)
+        {
+            if (customLog != null)
+            {
+                //poziva metodu AuditEvents da bi ispisao poruku u Log fajl
+                customLog.WriteEntry(string.Format(AuditEvents.ReadDBSuccess, dbName), EventLogEntryType.SuccessAudit);
+            }
+            else
+            {
+                throw new ArgumentException(string.Format("Error while trying to write event with id {0} to event log", (int)AuditEventTypes.ReadDBSuccess));
+            }
+        }
+
+        public static void ReadFailed(string dbName, string reason)
+        {
+            if (customLog != null)
+            {
+                //poziva metodu AuditEvents da bi ispisao poruku u Log fajl
+                customLog.WriteEntry(string.Format(AuditEvents.ReadDBFailed, dbName, reason), EventLogEntryType.Error);
+            }
+            else
+            {
+                throw new ArgumentException(string.Format("Error while trying to write event with id {0} to event log", (int)AuditEventTypes.ReadDBFailed));
+            }
+        }
+
+        public static void CertificateSuccess()
+        {
+            if (customLog != null)
+            {
+                //poziva metodu AuditEvents da bi ispisao poruku u Log fajl
+                customLog.WriteEntry(string.Format(AuditEvents.CertificateSuccess), EventLogEntryType.SuccessAudit);
+            }
+            else
+            {
+                throw new ArgumentException(string.Format("Error while trying to write event with id {0} to event log", (int)AuditEventTypes.CertificateSuccess));
+            }
+        }
+
+        public static void CertificateFailed()
+        {
+            if (customLog != null)
+            {
+                //poziva metodu AuditEvents da bi ispisao poruku u Log fajl
+                customLog.WriteEntry(string.Format(AuditEvents.CertificateFailed), EventLogEntryType.Error);
+            }
+            else
+            {
+                throw new ArgumentException(string.Format("Error while trying to write event with id {0} to event log", (int)AuditEventTypes.CertificateFailed));
+            }
+        }
+
         public void Dispose()
         {
             if (customLog != null)

@@ -79,6 +79,24 @@ namespace Manager {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Certificate is invalid..
+        /// </summary>
+        internal static string CertificateFailed {
+            get {
+                return ResourceManager.GetString("CertificateFailed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Certificate is valid..
+        /// </summary>
+        internal static string CertificateSuccess {
+            get {
+                return ResourceManager.GetString("CertificateSuccess", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Creating database {0} failed. Reason {1}..
         /// </summary>
         internal static string CreateDBFailed {
@@ -111,6 +129,24 @@ namespace Manager {
         internal static string DeleteDBSuccess {
             get {
                 return ResourceManager.GetString("DeleteDBSuccess", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Reading database {0} failed. Reason {1}..
+        /// </summary>
+        internal static string ReadDBFailed {
+            get {
+                return ResourceManager.GetString("ReadDBFailed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Database {0} successfully read..
+        /// </summary>
+        internal static string ReadDBSuccess {
+            get {
+                return ResourceManager.GetString("ReadDBSuccess", resourceCulture);
             }
         }
         
