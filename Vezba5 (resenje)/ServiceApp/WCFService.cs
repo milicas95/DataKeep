@@ -141,7 +141,7 @@ namespace ServiceApp
                 return "You can't use this option";
         }
 
-        public bool Add(string database, string userName)
+        public bool Add(string database,string userName)
         {
             X509Certificate2 cert = CertManager.GetCertificateFromStorage(StoreName.My, StoreLocation.LocalMachine, userName, "Writers");
 
@@ -153,28 +153,14 @@ namespace ServiceApp
                     {
                         Console.WriteLine("Enter region: ");
                         string region = Console.ReadLine();
-
                         Console.WriteLine("Enter city: ");
                         string city = Console.ReadLine();
-
                         Console.WriteLine("Enter year: ");
-                        int year;
-                        string syear = Console.ReadLine();
-                        while (!Int32.TryParse(syear, out year))
-                        {
-                            Console.WriteLine("Error, wrong input for year");
-                        }
-
+                        int year = Convert.ToInt32(Console.ReadLine());
                         Console.WriteLine("Enter month: ");
                         string month = Console.ReadLine();
-
                         Console.WriteLine("Enter usage: ");
-                        int eUsage;
-                        string seUsage = Console.ReadLine();
-                        while (!Int32.TryParse(seUsage, out eUsage))
-                        {
-                            Console.WriteLine("Error, wrong input for usage");
-                        }
+                        int eUsage = Convert.ToInt32(Console.ReadLine());
 
                         DBParam p = new DBParam(region, city, year, month, eUsage);
 
@@ -228,12 +214,7 @@ namespace ServiceApp
 
 
                         Console.WriteLine("Enter ID of information you want to change: ");
-                        int id;
-                        string sid = Console.ReadLine();
-                        while (!Int32.TryParse(sid, out id))
-                        {
-                            Console.WriteLine("Error, wrong format for id");
-                        }
+                        int id = Convert.ToInt32(Console.ReadLine());
 
                         int[] idDB = new int[] { };
 
@@ -245,42 +226,23 @@ namespace ServiceApp
                             for (int i = 0; i < lines.Count(); i++)
                             {
                                 string[] separeted = lines[i].Split('/');
-
-                                if (!Int32.TryParse(separeted[0], out idDB[i]))
-                                {
-                                    Console.WriteLine("Error while trying to convert int to string.");
-                                }
-
+                                idDB[i] = Convert.ToInt32(separeted[0]);
                             }
 
-                            for (int i = 0; i < idDB.Length; i++)
+                            for(int i=0; i<idDB.Length; i++)
                             {
-                                if (id == idDB[i])
+                                if(id==idDB[i])
                                 {
                                     Console.WriteLine("Enter region: ");
                                     string region = Console.ReadLine();
-
                                     Console.WriteLine("Enter city: ");
                                     string city = Console.ReadLine();
-
                                     Console.WriteLine("Enter year: ");
-                                    int year;
-                                    string syear = Console.ReadLine();
-                                    while (!Int32.TryParse(syear, out year))
-                                    {
-                                        Console.WriteLine("Error, wrong input for year");
-                                    }
-
+                                    int year = Convert.ToInt32(Console.ReadLine());
                                     Console.WriteLine("Enter month: ");
                                     string month = Console.ReadLine();
-
                                     Console.WriteLine("Enter usage: ");
-                                    int eUsage;
-                                    string seUsage = Console.ReadLine();
-                                    while (!Int32.TryParse(seUsage, out eUsage))
-                                    {
-                                        Console.WriteLine("Error, wrong input for usage");
-                                    }
+                                    int eUsage = Convert.ToInt32(Console.ReadLine());
 
                                     DBParam p = new DBParam(region, city, year, month, eUsage);
 
