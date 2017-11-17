@@ -19,7 +19,7 @@ namespace ServiceApp
             X509Certificate2 cert = CertManager.GetCertificateFromStorage(StoreName.My, StoreLocation.LocalMachine, userName, "Readers");
             if (cert != null)
             {
-                string path = "";
+                string path = "DataBase.txt";
                 string[] lines = File.ReadAllLines(path);
                 List<DBParam> wantedCity = new List<DBParam>();
                 
@@ -56,7 +56,7 @@ namespace ServiceApp
             X509Certificate2 cert = CertManager.GetCertificateFromStorage(StoreName.My, StoreLocation.LocalMachine, userName, "Readers");
             if (cert != null)
             {
-                string path = "";
+                string path = "DataBase.txt";
                 string[] lines = File.ReadAllLines(path);
                 List<DBParam> wantedReg = new List<DBParam>();
 
@@ -93,7 +93,7 @@ namespace ServiceApp
             X509Certificate2 cert = CertManager.GetCertificateFromStorage(StoreName.My, StoreLocation.LocalMachine, userName, "Readers");
             if (cert != null)
             {
-                string path = "";
+                string path = "DataBase.txt";
                 string[] lines = File.ReadAllLines(path);
                 List<DBParam> wantedReg = new List<DBParam>();
 

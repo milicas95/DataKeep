@@ -1,0 +1,12 @@
+1/Vojvodina/Novi Sad/2017/Jan/5000
+2/Vojvodina/Novi Sad/2017/Feb/3213
+3/Vojvodina/Novi Sad/2017/Mar/212
+4/Vojvodina/Novi Sad/2017/Apr/999
+5/Centralna Srbija/Beograd/2017/Feb/321
+6/Centralna Srbija/Beograd/2017/Feb/321
+7/Centralna Srbija/Beograd/2017/Feb/321
+8/Centralna Srbija/Beograd/2017/Feb/321
+9/Centralna Srbija/Beograd/2017/Feb/321
+10/Vojvodina/Zrenjanin/2017/Feb/321
+11/Vojvodina/Zrenjanin/2017/Feb/5265
+12/Vojvodina/Zrenjanin/2017/Feb/7899

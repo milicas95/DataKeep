@@ -70,6 +70,7 @@ namespace ClientApp
                             case 3:
                                 Console.WriteLine("Enter database name: ");
                                 string db = Console.ReadLine();
+                                db = db + ".txt";
                                 if (proxy.Add(db, clientCertCN))
                                 {
                                     Console.WriteLine("Added to database!");
@@ -82,6 +83,7 @@ namespace ClientApp
                             case 4:
                                 Console.WriteLine("Enter database name: ");
                                 string dbs = Console.ReadLine();
+                                dbs = dbs + ".txt";
                                 if (proxy.Add(dbs, clientCertCN))
                                 {
                                     Console.WriteLine("Database edited!");

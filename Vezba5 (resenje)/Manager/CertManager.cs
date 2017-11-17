@@ -24,7 +24,7 @@ namespace Manager
             store.Open(OpenFlags.ReadOnly);
             foreach (X509Certificate2 cert in store.Certificates)
             {
-                if (cert.SubjectName.Equals(string.Format("CN={0}, OU={1}, O={2}", subjectName, group, "DataKeepCA")))
+                if (Convert.ToString(cert.SubjectName.Name)== string.Format("CN={0}, OU={1}, O={2}", subjectName, group, "DataKeepCA"))
                 {
                     certificate = cert;
                     break;
