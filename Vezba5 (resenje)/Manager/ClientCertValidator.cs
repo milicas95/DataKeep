@@ -17,7 +17,8 @@ namespace Manager
 		/// <param name="certificate"> certificate to be validate </param>
 		public override void Validate(X509Certificate2 certificate)
 		{
-			if (certificate.Subject.Equals(certificate.Issuer))
+
+			if (!certificate.Issuer.Equals("DataKeepCA"))
 			{
 				throw new Exception("Certificate is self-issued.");
 			}
