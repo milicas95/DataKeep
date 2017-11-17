@@ -67,6 +67,30 @@ namespace ClientApp
                         {
                             case 0:
                                 continue;
+                            case 3:
+                                Console.WriteLine("Enter database name: ");
+                                string db = Console.ReadLine();
+                                if (proxy.Add(db, clientCertCN))
+                                {
+                                    Console.WriteLine("Added to database!");
+                                }
+                                else
+                                {
+                                    Console.WriteLine("Error! Information can't be added to database!");
+                                }
+                                continue;
+                            case 4:
+                                Console.WriteLine("Enter database name: ");
+                                string dbs = Console.ReadLine();
+                                if (proxy.Add(dbs, clientCertCN))
+                                {
+                                    Console.WriteLine("Database edited!");
+                                }
+                                else
+                                {
+                                    Console.WriteLine("Error! Information can't be edited!");
+                                }
+                                continue;
                             case 5:
                                 Console.WriteLine("What is the city?");
                                 string city = Console.ReadLine();
