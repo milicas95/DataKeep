@@ -12,6 +12,7 @@ using System.ServiceModel;
 
 namespace ServiceApp
 {
+    
     public class WCFService : IDatabaseManagement
     {
         // autorizacija ide samo kod pravljenja i brisanja datoteka !!!!!!
@@ -19,14 +20,14 @@ namespace ServiceApp
         public int AverageUsageInCity(string city, string userName)
         {
             X509Certificate2 cert = CertManager.GetCertificateFromStorage(StoreName.My, StoreLocation.LocalMachine, userName, "Readers");
-            Audit.AuthorizationSuccess(userName, OperationContext.Current.IncomingMessageHeaders.Action);       //ispis da je autentifikovan korisnik
+   //         Audit.AuthorizationSuccess(userName, OperationContext.Current.IncomingMessageHeaders.Action);       //ispis da je autentifikovan korisnik
 
             string path = "DataBase.txt";
             int totalUsage = 0;
 
             if (cert != null)
             {
-                Audit.CertificateSuccess();     //ispis u Log fajl da je ok certifikat
+  //              Audit.CertificateSuccess();     //ispis u Log fajl da je ok certifikat
 
                 try
                 {
@@ -44,7 +45,7 @@ namespace ServiceApp
                         int eUsage = Int32.Parse(separeted[5]);
 
                         DBParam p = new DBParam(region, cit, year, month, eUsage);
-                        if (p.City == cit)
+                        if (p.City == city)
                         {
                             wantedCity.Add(p);
                         }
@@ -67,7 +68,7 @@ namespace ServiceApp
             }
             else
             {
-                Audit.CertificateFailed();
+         //       Audit.CertificateFailed();
                 Console.WriteLine("Certificate is invalid");
                 return -1;
             }
@@ -76,18 +77,18 @@ namespace ServiceApp
         public int AverageUsageInRegion(string region, string userName)
         {
             X509Certificate2 cert = CertManager.GetCertificateFromStorage(StoreName.My, StoreLocation.LocalMachine, userName, "Readers");
-            Audit.AuthorizationSuccess(userName, OperationContext.Current.IncomingMessageHeaders.Action);       //ispis da je autentifikovan korisnik
+   //         Audit.AuthorizationSuccess(userName, OperationContext.Current.IncomingMessageHeaders.Action);       //ispis da je autentifikovan korisnik
 
             string path = "DataBase.txt";
             int totalUsage = 0;
 
             if (cert != null)
             {
-                Audit.CertificateSuccess();     //ispis u Log fajl da je ok certifikat
+//                Audit.CertificateSuccess();     //ispis u Log fajl da je ok certifikat
 
                 try
                 {
-                    Audit.ReadSuccess(path);        //ispis u Log fajl da je uspesno procitana (otvorena) datoteka
+   //                 Audit.ReadSuccess(path);        //ispis u Log fajl da je uspesno procitana (otvorena) datoteka
 
                     string[] lines = File.ReadAllLines(path);
                     List<DBParam> wantedReg = new List<DBParam>();
@@ -118,7 +119,7 @@ namespace ServiceApp
                 }
                 catch (Exception e)
                 {
-                    Audit.ReadFailed(path,"Exception was thrown");     //ispis u Log fajlu da korisnik nema pravo pisanja
+  //                  Audit.ReadFailed(path,"Exception was thrown");     //ispis u Log fajlu da korisnik nema pravo pisanja
                     Console.WriteLine("Exception was thrown:");
                     Console.WriteLine(e.Message);
                 }
@@ -127,7 +128,7 @@ namespace ServiceApp
             }
             else
             {
-                Audit.CertificateFailed();
+  //              Audit.CertificateFailed();
                 Console.WriteLine("Certificate is invalid");
                 return -1;
             }
@@ -136,18 +137,18 @@ namespace ServiceApp
         public string HighestSpenderInRegion(string region, string userName)
         {
             X509Certificate2 cert = CertManager.GetCertificateFromStorage(StoreName.My, StoreLocation.LocalMachine, userName, "Readers");
-            Audit.AuthorizationSuccess(userName, OperationContext.Current.IncomingMessageHeaders.Action);       //ispis da je autentifikovan korisnik
+ //           Audit.AuthorizationSuccess(userName, OperationContext.Current.IncomingMessageHeaders.Action);       //ispis da je autentifikovan korisnik
 
             string path = "DataBase.txt";
             string hs="";
 
             if (cert != null)
             {
-                Audit.CertificateSuccess();     //ispis u Log fajl da je ok certifikat
+  //              Audit.CertificateSuccess();     //ispis u Log fajl da je ok certifikat
 
                 try
                 {
-                    Audit.ReadSuccess(path);        //ispis u Log fajl da je uspesno procitana (otvorena) datoteka
+//                    Audit.ReadSuccess(path);        //ispis u Log fajl da je uspesno procitana (otvorena) datoteka
 
                     string[] lines = File.ReadAllLines(path);
 
@@ -194,7 +195,7 @@ namespace ServiceApp
                 }
                 catch (Exception e)
                 {
-                    Audit.ReadFailed(path, "Exception was thrown");     //ispis u Log fajlu da korisnik nema pravo pisanja
+  //                  Audit.ReadFailed(path, "Exception was thrown");     //ispis u Log fajlu da korisnik nema pravo pisanja
                     Console.WriteLine("Exception was thrown:");
                     Console.WriteLine(e.Message);
                 }
@@ -203,8 +204,8 @@ namespace ServiceApp
             }
             else
             {
-                Audit.CertificateFailed();
-                //Console.WriteLine("Certificate is invalid");
+              //  Audit.CertificateFailed();
+                Console.WriteLine("Certificate is invalid");
                 return "You can't use this option";
             }
         }
@@ -212,19 +213,19 @@ namespace ServiceApp
         public bool Add(string database, string userName)
         {
             X509Certificate2 cert = CertManager.GetCertificateFromStorage(StoreName.My, StoreLocation.LocalMachine, userName, "Writers");
-            Audit.AuthorizationSuccess(userName, OperationContext.Current.IncomingMessageHeaders.Action);       //ispis da je autentifikovan korisnik
+        //    Audit.AuthorizationSuccess(userName, OperationContext.Current.IncomingMessageHeaders.Action);       //ispis da je autentifikovan korisnik
 
             if (cert != null)
             {
-                Audit.CertificateSuccess();     //ispis u Log fajl da je ok certifikat
+             //   Audit.CertificateSuccess();     //ispis u Log fajl da je ok certifikat
 
                 if (File.Exists(database))
                 {
-                    Audit.ReadSuccess(database);        //ispis u Log fajl da je uspesno procitana (otvorena) datoteka
+              //      Audit.ReadSuccess(database);        //ispis u Log fajl da je uspesno procitana (otvorena) datoteka
 
                     try
                     {
-                        Audit.ReadSuccess(database);        //ispis u Log fajl da je uspesno procitana (otvorena) datoteka
+               //         Audit.ReadSuccess(database);        //ispis u Log fajl da je uspesno procitana (otvorena) datoteka
 
                         Console.WriteLine("Enter region: ");
                         string region = Console.ReadLine();
@@ -262,13 +263,13 @@ namespace ServiceApp
                             sw.WriteLine(p.ID + "/" + p.Region + "/" + p.City + "/" + p.Year + "/" + p.Month + "/" + p.ElEnergySpent);
                         }
 
-                        Audit.AddSuccess();         //ispis u Log fajlu da je dodat podatak u datoteku
+         //               Audit.AddSuccess();         //ispis u Log fajlu da je dodat podatak u datoteku
 
                         Console.WriteLine("Added to database!");
                     }
                     catch (Exception e)
                     {
-                        Audit.AddFailed("Exception was thrown");     //ispis u Log fajlu da korisnik nema pravo pisanja
+         //               Audit.AddFailed("Exception was thrown");     //ispis u Log fajlu da korisnik nema pravo pisanja
                         Console.WriteLine("Exception was thrown:");
                         Console.WriteLine(e.Message);
                     }
@@ -277,14 +278,14 @@ namespace ServiceApp
                 }
                 else
                 {
-                    Audit.ReadFailed(database, "Database doesn't exist.");          //ispis u Log fajlu da datoteka ne postoji
+        //            Audit.ReadFailed(database, "Database doesn't exist.");          //ispis u Log fajlu da datoteka ne postoji
                     Console.WriteLine("Database with that name doesn't exist!");
                     return false;
                 }
             }
             else
             {
-                Audit.CertificateFailed();
+     //           Audit.CertificateFailed();
                 Console.WriteLine("Certificate is invalid");
                 return false;
             }
@@ -293,17 +294,17 @@ namespace ServiceApp
         public bool Edit(string database, string userName)
         {
             X509Certificate2 cert = CertManager.GetCertificateFromStorage(StoreName.My, StoreLocation.LocalMachine, userName, "Writers");
-            Audit.AuthorizationSuccess(userName, OperationContext.Current.IncomingMessageHeaders.Action);       //ispis da je autentifikovan korisnik
+     //       Audit.AuthorizationSuccess(userName, OperationContext.Current.IncomingMessageHeaders.Action);       //ispis da je autentifikovan korisnik
 
             if (cert != null)
             {
-                Audit.CertificateSuccess();     //ispis u Log fajl da je ok certifikat
+    //            Audit.CertificateSuccess();     //ispis u Log fajl da je ok certifikat
 
                 if (File.Exists(database))
                 {
                     try
                     {
-                        Audit.ReadSuccess(database);        //ispis u Log fajl da je uspesno procitana (otvorena) datoteka
+    //                    Audit.ReadSuccess(database);        //ispis u Log fajl da je uspesno procitana (otvorena) datoteka
 
                         Console.WriteLine("Current database: ");
 
@@ -322,7 +323,7 @@ namespace ServiceApp
                         string sid = Console.ReadLine();
                         while (!Int32.TryParse(sid, out id))
                         {
-                            Audit.UpdateFailed("User " + userName + " put wrong parameter for id.");     //ispis u Log fajl za unos losih parametara
+         //                   Audit.UpdateFailed("User " + userName + " put wrong parameter for id.");     //ispis u Log fajl za unos losih parametara
                             Console.WriteLine("Error, wrong format for id");
                         }
 
@@ -339,7 +340,7 @@ namespace ServiceApp
 
                                 if (!Int32.TryParse(separeted[0], out idDB[i]))
                                 {
-                                    Audit.UpdateFailed("Convertion of int to string failed.");     //ispis u Log fajl za gresku
+          //                          Audit.UpdateFailed("Convertion of int to string failed.");     //ispis u Log fajl za gresku
                                     Console.WriteLine("Error while trying to convert int to string.");
                                 }
 
@@ -383,7 +384,7 @@ namespace ServiceApp
                                         sw.WriteLine(p.ID + "/" + p.Region + "/" + p.City + "/" + p.Year + "/" + p.Month + "/" + p.ElEnergySpent);
                                     }
 
-                                    Audit.UpdateSuccess();         //ispis u Log fajlu da je promenjen podatak
+          //                          Audit.UpdateSuccess();         //ispis u Log fajlu da je promenjen podatak
                                     Console.WriteLine("Database edited!");
                                 }
                             }
@@ -393,7 +394,7 @@ namespace ServiceApp
                     }
                     catch (Exception e)
                     {
-                        Audit.UpdateFailed("Exception was thrown");     //ispis u Log fajlu da korisnik nema pravo pisanja
+          //              Audit.UpdateFailed("Exception was thrown");     //ispis u Log fajlu da korisnik nema pravo pisanja
                         Console.WriteLine("Exception was thrown: ");
                         Console.WriteLine(e.Message);
                     }
@@ -402,14 +403,14 @@ namespace ServiceApp
                 }
                 else
                 {
-                    Audit.ReadFailed(database, "Database doesn't exist.");          //ispis u Log fajlu da datoteka ne postoji
+   //                 Audit.ReadFailed(database, "Database doesn't exist.");          //ispis u Log fajlu da datoteka ne postoji
                     Console.WriteLine("Database with that name doesn't exist!");
                     return false;
                 }
             }
             else
             {
-                Audit.CertificateFailed();
+    //            Audit.CertificateFailed();
                 Console.WriteLine("Certificate is invalid");
                 return false;
             }
