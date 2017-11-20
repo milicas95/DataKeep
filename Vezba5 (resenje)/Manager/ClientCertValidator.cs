@@ -18,7 +18,7 @@ namespace Manager
 		public override void Validate(X509Certificate2 certificate)
 		{
 
-			if (!certificate.Issuer.Equals("CN=DataKeepCA"))
+			if (!certificate.Issuer.Equals("DataKeepCA"))
 			{
 				throw new Exception("Certificate is self-issued.");
 			}

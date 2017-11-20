@@ -13,7 +13,6 @@ namespace ClientApp
 	{
 		static void Main(string[] args)
 		{
-            Console.ReadLine();
 			/// Define the expected service certificate. It is required to establish cmmunication using certificates.
             string clientCertCN = Formatter.ParseName(WindowsIdentity.GetCurrent().Name);
             IdentityReferenceCollection clGroups = WindowsIdentity.GetCurrent().Groups;
@@ -32,8 +31,8 @@ namespace ClientApp
                 
             }
             NetTcpBinding binding = new NetTcpBinding();
-            binding.Security.Transport.ClientCredentialType = TcpClientCredentialType.Certificate;
-            
+			binding.Security.Transport.ClientCredentialType = TcpClientCredentialType.Certificate;
+
             /// Use CertManager class to obtain the certificate based on the "srvCertCN" representing the expected service identity.
             if (!found)
             {
@@ -42,10 +41,10 @@ namespace ClientApp
             }
             else
             {
-                X509Certificate2 srvCert = CertManager.GetCertificateFromStorage(StoreName.TrustedPeople, StoreLocation.LocalMachine, "dkservice", "Servers");
+                X509Certificate2 srvCert = CertManager.GetCertificateFromStorage(StoreName.My, StoreLocation.LocalMachine, clientCertCN, groupName);
                 EndpointAddress address = new EndpointAddress(new Uri("net.tcp://localhost:9999/Receiver"),
-                                              new X509CertificateEndpointIdentity(srvCert));
-                
+                                          new X509CertificateEndpointIdentity(srvCert));
+
                 using (WCFClient proxy = new WCFClient(binding, address))
                 {
                     int action;

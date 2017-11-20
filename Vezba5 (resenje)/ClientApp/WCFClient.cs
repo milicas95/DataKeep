@@ -33,12 +33,14 @@ namespace ClientApp
 
             }
             this.Credentials.ServiceCertificate.Authentication.CertificateValidationMode = System.ServiceModel.Security.X509CertificateValidationMode.Custom;
-            
-            this.Credentials.ServiceCertificate.Authentication.CustomCertificateValidator = new ClientCertValidator();
-            this.Credentials.ServiceCertificate.Authentication.RevocationMode = X509RevocationMode.NoCheck;
-            this.Credentials.ClientCertificate.Certificate = CertManager.GetCertificateFromStorage(StoreName.My, StoreLocation.LocalMachine, cltCertCN, groupName);
-            factory = this.CreateChannel();
-        }
+			this.Credentials.ServiceCertificate.Authentication.CustomCertificateValidator = new ClientCertValidator();
+			this.Credentials.ServiceCertificate.Authentication.RevocationMode = X509RevocationMode.NoCheck;
+
+			/// Set appropriate client's certificate on the channel. Use CertManager class to obtain the certificate based on the "cltCertCN"
+			this.Credentials.ClientCertificate.Certificate = CertManager.GetCertificateFromStorage(StoreName.My, StoreLocation.LocalMachine, cltCertCN,groupName);
+
+			factory = this.CreateChannel();
+		}
 
         public bool Add(string database, string userName)
         {
