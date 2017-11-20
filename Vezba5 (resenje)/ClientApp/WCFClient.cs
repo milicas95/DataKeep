@@ -105,5 +105,31 @@ namespace ClientApp
                 return e.Message;
             }
         }
+
+        public bool CreateDatabase(string userName)
+        {
+            try
+            {
+                return factory.CreateDatabase(userName);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("[Create] Error={0}", e.Message);
+                return false;
+            }
+        }
+
+        public bool DeleteDatabase(string userName)
+        {
+            try
+            {
+                return factory.DeleteDatabase(userName);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("[Delete] Error={0}", e.Message);
+                return false;
+            }
+        }
     }
 }

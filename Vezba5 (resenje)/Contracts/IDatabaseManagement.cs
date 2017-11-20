@@ -23,5 +23,11 @@ namespace Contracts
 
         [OperationContract]
         bool Edit(string database,string userName);
+
+        [OperationContract]
+        bool CreateDatabase(string userName);
+
+        [OperationContract]
+        bool DeleteDatabase(string userName);
     }
 }
