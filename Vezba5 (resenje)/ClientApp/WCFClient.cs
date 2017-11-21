@@ -10,9 +10,9 @@ using System.Security.Cryptography.X509Certificates;
 
 namespace ClientApp
 {
-	public class WCFClient : ChannelFactory<IDatabaseManagement>, IDatabaseManagement, IDisposable
+	public class WCFClient : ChannelFactory<IDataBaseManagement>, IDataBaseManagement, IDisposable
 	{
-		IDatabaseManagement factory;
+        IDataBaseManagement factory;
 
 		public WCFClient(NetTcpBinding binding, EndpointAddress address)
 			: base(binding, address)

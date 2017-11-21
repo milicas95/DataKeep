@@ -11,6 +11,8 @@ namespace ClientApp
 {
 	public class Program
 	{
+        static byte[] session_key = null;
+
 		static void Main(string[] args)
 		{
             Console.ReadLine();
@@ -45,7 +47,34 @@ namespace ClientApp
                 X509Certificate2 srvCert = CertManager.GetCertificateFromStorage(StoreName.TrustedPeople, StoreLocation.LocalMachine, "dkservice", "Servers");
                 EndpointAddress address = new EndpointAddress(new Uri("net.tcp://localhost:9999/Receiver"),
                                               new X509CertificateEndpointIdentity(srvCert));
-                
+
+
+                using (SSLHandshakeClient proxyshake = new SSLHandshakeClient(binding, address))
+                {
+                    byte[] encrypted_session_key = null;
+                    X509Certificate2 serverCert = null;
+
+                     serverCert = proxyshake.RequestSession();
+                    if(serverCert == null)
+                    {
+                        Console.WriteLine("Error with servers public key!");
+                    }
+
+                    session_key = RSA_ASymm_Algorithm.GenerateSessionKey();
+
+                    encrypted_session_key = RSA_ASymm_Algorithm.RSAEncrypt(session_key, serverCert.PublicKey);
+                    if(encrypted_session_key == null)
+                    {
+                        Console.WriteLine("Error with encryption of session key!");
+                    }
+
+                    bool result = proxyshake.SendSessionKey(encrypted_session_key);
+                    if(result == false)
+                    {
+                        Console.WriteLine("Error with decryption of session key!");
+                    }
+                }
+
                 using (WCFClient proxy = new WCFClient(binding, address))
                 {
                     int action;

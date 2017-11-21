@@ -7,7 +7,7 @@ using System.Text;
 namespace Contracts
 {
     [ServiceContract]
-    public interface IDatabaseManagement
+    public interface IDataBaseManagement
     {
         [OperationContract]
         int AverageUsageInCity(string city, string userName);
