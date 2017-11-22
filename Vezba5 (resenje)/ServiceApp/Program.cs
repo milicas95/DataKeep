@@ -39,6 +39,7 @@ namespace ServiceApp
 			string address = "net.tcp://localhost:9999/Receiver";
 			ServiceHost host = new ServiceHost(typeof(WCFService));
             host.AddServiceEndpoint(typeof(IDatabaseManagement), binding, address);
+            host.AddServiceEndpoint(typeof(ISSLHandshake), binding, address);
 
             ///PeerTrust - for development purposes only to temporarily disable the mechanism that checks the chain of trust for a certificate. 
             ///To do this, set the CertificateValidationMode property to PeerTrust (PeerOrChainTrust) - specifies that the certificate can be self-issued (peer trust) 

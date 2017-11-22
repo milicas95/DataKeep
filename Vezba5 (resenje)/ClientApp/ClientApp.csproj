@@ -55,12 +55,17 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SSLHandshakeClient.cs" />
     <Compile Include="WCFClient.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Contracts\Contracts.csproj">
       <Project>{6974D73C-F498-465A-A5C0-5CFF516D28F2}</Project>
       <Name>Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DBparam\DBparam.csproj">
+      <Project>{33da0622-6786-404b-9b42-1c355f9d1896}</Project>
+      <Name>DBparam</Name>
     </ProjectReference>
     <ProjectReference Include="..\Manager\Manager.csproj">
       <Project>{DACD3DAD-1EBA-49B7-B405-DA736E9E0F99}</Project>

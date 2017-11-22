@@ -50,8 +50,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IDatabaseManagement.cs" />
+    <Compile Include="ISSLHandshake.cs" />
     <Compile Include="IWCFContract.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DBparam\DBparam.csproj">
+      <Project>{33da0622-6786-404b-9b42-1c355f9d1896}</Project>
+      <Name>DBparam</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

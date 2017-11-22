@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.ServiceModel;
 using System.Text;
+using DBparam;
 
 namespace Contracts
 {
@@ -19,10 +20,10 @@ namespace Contracts
         string HighestSpenderInRegion(string region, string userName);
 
         [OperationContract]
-        bool Add(string userName);
+        bool Add(string userName, DBParam bdp);
 
         [OperationContract]
-        bool Edit(string userName);
+        bool Edit(string userName, DBParam bdp);
 
         [OperationContract]
         bool CreateDatabase(string userName);

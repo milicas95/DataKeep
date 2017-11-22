@@ -28,3 +28,8 @@ C:\Users\Administrator.DOMAINADMINS0\Desktop\DataKeep\Vezba5 (resenje)\DBparam\b
 C:\Users\Administrator.DOMAINADMINS0\Desktop\DataKeep\Vezba5 (resenje)\DBparam\obj\Debug\DBparam.csprojResolveAssemblyReference.cache
 C:\Users\Administrator.DOMAINADMINS0\Desktop\DataKeep\Vezba5 (resenje)\DBparam\obj\Debug\DBparam.dll
 C:\Users\Administrator.DOMAINADMINS0\Desktop\DataKeep\Vezba5 (resenje)\DBparam\obj\Debug\DBparam.pdb
+C:\Users\Administrator.P05-17\Documents\GitHub\DataKeep\Vezba5 (resenje)\DBparam\bin\Debug\DBparam.dll
+C:\Users\Administrator.P05-17\Documents\GitHub\DataKeep\Vezba5 (resenje)\DBparam\bin\Debug\DBparam.pdb
+C:\Users\Administrator.P05-17\Documents\GitHub\DataKeep\Vezba5 (resenje)\DBparam\obj\Debug\DBparam.csprojResolveAssemblyReference.cache
+C:\Users\Administrator.P05-17\Documents\GitHub\DataKeep\Vezba5 (resenje)\DBparam\obj\Debug\DBparam.dll
+C:\Users\Administrator.P05-17\Documents\GitHub\DataKeep\Vezba5 (resenje)\DBparam\obj\Debug\DBparam.pdb
