@@ -29,7 +29,6 @@ C:\Users\Administrator.DOMAINADMINS0\Desktop\DataKeep\Vezba5 (resenje)\Contracts
 C:\Users\Administrator.DOMAINADMINS0\Desktop\DataKeep\Vezba5 (resenje)\Contracts\obj\Debug\Contracts.csprojResolveAssemblyReference.cache
 C:\Users\Administrator.DOMAINADMINS0\Desktop\DataKeep\Vezba5 (resenje)\Contracts\obj\Debug\Contracts.dll
 C:\Users\Administrator.DOMAINADMINS0\Desktop\DataKeep\Vezba5 (resenje)\Contracts\obj\Debug\Contracts.pdb
-<<<<<<< HEAD
 C:\Users\Administrator.P05-17\Documents\GitHub\DataKeep\Vezba5 (resenje)\Contracts\bin\Debug\Contracts.dll
 C:\Users\Administrator.P05-17\Documents\GitHub\DataKeep\Vezba5 (resenje)\Contracts\bin\Debug\Contracts.pdb
 C:\Users\Administrator.P05-17\Documents\GitHub\DataKeep\Vezba5 (resenje)\Contracts\obj\Debug\Contracts.csprojResolveAssemblyReference.cache
@@ -37,6 +36,5 @@ C:\Users\Administrator.P05-17\Documents\GitHub\DataKeep\Vezba5 (resenje)\Contrac
 C:\Users\Administrator.P05-17\Documents\GitHub\DataKeep\Vezba5 (resenje)\Contracts\obj\Debug\Contracts.pdb
 C:\Users\Administrator.P05-17\Documents\GitHub\DataKeep\Vezba5 (resenje)\Contracts\bin\Debug\DBparam.dll
 C:\Users\Administrator.P05-17\Documents\GitHub\DataKeep\Vezba5 (resenje)\Contracts\bin\Debug\DBparam.pdb
-=======
 >>>>>>> 6848f57ed3758e1d5fe2ad9c4eac414f0142f89a
 >>>>>>> a0fc13df0e33cfbcf78c2a6d0ada03d1c16601e3
