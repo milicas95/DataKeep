@@ -17,8 +17,16 @@ C:\Users\Administrator.DOMAINADMINS0\Desktop\Repository\DataKeep\Vezba5 (resenje
 C:\Users\Administrator.DOMAINADMINS0\Desktop\Repository\DataKeep\Vezba5 (resenje)\Contracts\obj\Debug\Contracts.csprojResolveAssemblyReference.cache
 C:\Users\Administrator.DOMAINADMINS0\Desktop\Repository\DataKeep\Vezba5 (resenje)\Contracts\obj\Debug\Contracts.dll
 C:\Users\Administrator.DOMAINADMINS0\Desktop\Repository\DataKeep\Vezba5 (resenje)\Contracts\obj\Debug\Contracts.pdb
+<<<<<<< HEAD
 C:\Users\Administrator.DOMAINADMINS0\Documents\GitHub\DataKeep\Vezba5 (resenje)\Contracts\bin\Debug\Contracts.dll
 C:\Users\Administrator.DOMAINADMINS0\Documents\GitHub\DataKeep\Vezba5 (resenje)\Contracts\bin\Debug\Contracts.pdb
 C:\Users\Administrator.DOMAINADMINS0\Documents\GitHub\DataKeep\Vezba5 (resenje)\Contracts\obj\Debug\Contracts.csprojResolveAssemblyReference.cache
 C:\Users\Administrator.DOMAINADMINS0\Documents\GitHub\DataKeep\Vezba5 (resenje)\Contracts\obj\Debug\Contracts.dll
 C:\Users\Administrator.DOMAINADMINS0\Documents\GitHub\DataKeep\Vezba5 (resenje)\Contracts\obj\Debug\Contracts.pdb
+=======
+C:\Users\Administrator.DOMAINADMINS0\Desktop\DataKeep\Vezba5 (resenje)\Contracts\bin\Debug\Contracts.dll
+C:\Users\Administrator.DOMAINADMINS0\Desktop\DataKeep\Vezba5 (resenje)\Contracts\bin\Debug\Contracts.pdb
+C:\Users\Administrator.DOMAINADMINS0\Desktop\DataKeep\Vezba5 (resenje)\Contracts\obj\Debug\Contracts.csprojResolveAssemblyReference.cache
+C:\Users\Administrator.DOMAINADMINS0\Desktop\DataKeep\Vezba5 (resenje)\Contracts\obj\Debug\Contracts.dll
+C:\Users\Administrator.DOMAINADMINS0\Desktop\DataKeep\Vezba5 (resenje)\Contracts\obj\Debug\Contracts.pdb
+>>>>>>> 6848f57ed3758e1d5fe2ad9c4eac414f0142f89a

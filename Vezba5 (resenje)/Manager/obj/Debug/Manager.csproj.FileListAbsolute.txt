@@ -41,3 +41,20 @@ C:\Users\Administrator.DOMAINADMINS0\Desktop\proj\DataKeep\Vezba5 (resenje)\Mana
 C:\Users\Administrator.DOMAINADMINS0\Desktop\proj\DataKeep\Vezba5 (resenje)\Manager\obj\Debug\Manager.csproj.GenerateResource.Cache
 C:\Users\Administrator.DOMAINADMINS0\Desktop\proj\DataKeep\Vezba5 (resenje)\Manager\obj\Debug\Manager.dll
 C:\Users\Administrator.DOMAINADMINS0\Desktop\proj\DataKeep\Vezba5 (resenje)\Manager\obj\Debug\Manager.pdb
+<<<<<<< HEAD
+=======
+C:\Users\Administrator.DOMAINADMINS0\Desktop\Repository\DataKeep\Vezba5 (resenje)\Manager\bin\Debug\Manager.dll
+C:\Users\Administrator.DOMAINADMINS0\Desktop\Repository\DataKeep\Vezba5 (resenje)\Manager\bin\Debug\Manager.pdb
+C:\Users\Administrator.DOMAINADMINS0\Desktop\Repository\DataKeep\Vezba5 (resenje)\Manager\obj\Debug\Manager.csprojResolveAssemblyReference.cache
+C:\Users\Administrator.DOMAINADMINS0\Desktop\Repository\DataKeep\Vezba5 (resenje)\Manager\obj\Debug\Manager.AuditEventsFile.resources
+C:\Users\Administrator.DOMAINADMINS0\Desktop\Repository\DataKeep\Vezba5 (resenje)\Manager\obj\Debug\Manager.csproj.GenerateResource.Cache
+C:\Users\Administrator.DOMAINADMINS0\Desktop\Repository\DataKeep\Vezba5 (resenje)\Manager\obj\Debug\Manager.dll
+C:\Users\Administrator.DOMAINADMINS0\Desktop\Repository\DataKeep\Vezba5 (resenje)\Manager\obj\Debug\Manager.pdb
+C:\Users\Administrator.DOMAINADMINS0\Desktop\DataKeep\Vezba5 (resenje)\Manager\bin\Debug\Manager.dll
+C:\Users\Administrator.DOMAINADMINS0\Desktop\DataKeep\Vezba5 (resenje)\Manager\bin\Debug\Manager.pdb
+C:\Users\Administrator.DOMAINADMINS0\Desktop\DataKeep\Vezba5 (resenje)\Manager\obj\Debug\Manager.csprojResolveAssemblyReference.cache
+C:\Users\Administrator.DOMAINADMINS0\Desktop\DataKeep\Vezba5 (resenje)\Manager\obj\Debug\Manager.AuditEventsFile.resources
+C:\Users\Administrator.DOMAINADMINS0\Desktop\DataKeep\Vezba5 (resenje)\Manager\obj\Debug\Manager.csproj.GenerateResource.Cache
+C:\Users\Administrator.DOMAINADMINS0\Desktop\DataKeep\Vezba5 (resenje)\Manager\obj\Debug\Manager.dll
+C:\Users\Administrator.DOMAINADMINS0\Desktop\DataKeep\Vezba5 (resenje)\Manager\obj\Debug\Manager.pdb
+>>>>>>> 6848f57ed3758e1d5fe2ad9c4eac414f0142f89a
