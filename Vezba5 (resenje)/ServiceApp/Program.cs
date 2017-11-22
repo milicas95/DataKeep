@@ -13,8 +13,6 @@ namespace ServiceApp
 {
 	public class Program
 	{
-        static byte[] server_session_key = null;
-
 		static void Main(string[] args)
 		{
             /// srvCertCN.SubjectName should be set to the service's username. .NET WindowsIdentity class provides information about Windows user running the given process
@@ -39,10 +37,8 @@ namespace ServiceApp
             binding.Security.Transport.ClientCredentialType = TcpClientCredentialType.Certificate;
 
 			string address = "net.tcp://localhost:9999/Receiver";
-
-            ServiceHost host = new ServiceHost(typeof(WCFService));
-            host.AddServiceEndpoint(typeof(IDataBaseManagement), binding, address);
-            host.AddServiceEndpoint(typeof(ISSLHandshake), binding, address);
+			ServiceHost host = new ServiceHost(typeof(WCFService));
+            host.AddServiceEndpoint(typeof(IDatabaseManagement), binding, address);
 
             ///PeerTrust - for development purposes only to temporarily disable the mechanism that checks the chain of trust for a certificate. 
             ///To do this, set the CertificateValidationMode property to PeerTrust (PeerOrChainTrust) - specifies that the certificate can be self-issued (peer trust) 
