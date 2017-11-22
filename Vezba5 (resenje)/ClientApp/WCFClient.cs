@@ -7,6 +7,7 @@ using Contracts;
 using Manager;
 using System.Security.Principal;
 using System.Security.Cryptography.X509Certificates;
+using DBparam;
 
 namespace ClientApp
 {
@@ -40,11 +41,11 @@ namespace ClientApp
             factory = this.CreateChannel();
         }
 
-        public bool Add(string database, string userName)
+        public bool Add(string userName, DBParam bdp)
         {
             try
             {
-                return factory.Add(database, userName); 
+                return factory.Add(userName, bdp);
             }
             catch (Exception e)
             {
@@ -80,11 +81,11 @@ namespace ClientApp
             }
         }
 
-        public bool Edit(string database, string userName)
+        public bool Edit(string userName, DBParam bdp)
         {
             try
             {
-                return factory.Edit(database, userName);
+                return factory.Edit(userName, bdp);
             }
             catch (Exception e)
             {

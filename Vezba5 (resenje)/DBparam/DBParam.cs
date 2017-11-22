@@ -8,49 +8,41 @@ namespace DBparam
 {
     public class DBParam
     {
-        private static int id=0;     
+        private int id;
         private string region;
         private string city;
         private int year;
         private string month;
         private int elEnergySpent;
+        private List<int> ids;          //list svih IDjeva u bazi
 
-        public DBParam(string Region, string City, int Year, string Month, int ElEnergySpent) {
-            id = this.ID;
-            region = Region;
-            city = City;
-            year = Year;
-            month = Month;
-            elEnergySpent = ElEnergySpent;
-        }
+        public DBParam() { }
 
-        public int ID
-        {
-            set { id++; }
+        public List<int> IDs { get; set; }
 
-            get { return id; }
-        }
+        public int Id { get; set; }
 
-        public string Region
-        {
-            get { return region; }
-        }
+        public string Region { get; set; }
 
         public string City
         {
-            get { return city; }
+            get;
+            set;
         }
         public int Year
         {
-            get { return year; }
+            get;
+            set;
         }
         public string Month
         {
-            get { return month; }
+            get;
+            set;
         }
         public int ElEnergySpent
         {
-            get { return elEnergySpent; }
+            get;
+            set;
         }
     }
 }

@@ -19,10 +19,10 @@ namespace Contracts
         string HighestSpenderInRegion(string region, string userName);
 
         [OperationContract]
-        bool Add(string database,string userName);
+        bool Add(string userName);
 
         [OperationContract]
-        bool Edit(string database,string userName);
+        bool Edit(string userName);
 
         [OperationContract]
         bool CreateDatabase(string userName);

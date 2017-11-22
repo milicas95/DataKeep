@@ -6,6 +6,8 @@ using System.ServiceModel;
 using System.Security.Cryptography.X509Certificates;
 using Manager;
 using System.Security.Principal;
+using DBparam;
+using System.IO;
 
 namespace ClientApp
 {
@@ -81,10 +83,42 @@ namespace ClientApp
                                     Console.WriteLine("You deleted the database");
                                 continue;
                             case 3:
-                                Console.WriteLine("Enter database name: ");
-                                string db = Console.ReadLine();
-                                db = db + ".txt";
-                                if (proxy.Add(db, clientCertCN))
+                                DBParam dbp = new DBParam();
+                                Console.WriteLine("Enter ID: ");
+                                int id;
+                                string sid = Console.ReadLine();
+                                while (!Int32.TryParse(sid, out id))
+                                {
+                                    //               Audit.AddFailed("User " + userName + " put wrong parameter for year.");     //ispis u Log fajl za unos losih parametara
+                                    Console.WriteLine("Error, wrong input for year");
+                                }
+                                //dodati proveru da li postoji id u bazi
+                                dbp.Id = id;
+                                Console.WriteLine("Enter region: ");
+                                dbp.Region = Console.ReadLine();
+                                Console.WriteLine("Enter city: ");
+                                dbp.City = Console.ReadLine();
+                                Console.WriteLine("Enter year: ");
+                                int year;
+                                string syear = Console.ReadLine();
+                                while (!Int32.TryParse(syear, out year))
+                                {
+                                    //               Audit.AddFailed("User " + userName + " put wrong parameter for year.");     //ispis u Log fajl za unos losih parametara
+                                    Console.WriteLine("Error, wrong input for year");
+                                }
+                                dbp.Year = year;
+                                Console.WriteLine("Enter month: ");
+                                dbp.Month = Console.ReadLine();
+                                Console.WriteLine("Enter usage: ");
+                                int eUsage;
+                                string seUsage = Console.ReadLine();
+                                while (!Int32.TryParse(seUsage, out eUsage))
+                                {
+                                    //               Audit.AddFailed("User " + userName + " put wrong parameter for usage.");        //ispis u Log fajl za unos losih parametara
+                                    Console.WriteLine("Error, wrong input for usage");
+                                }
+                                dbp.ElEnergySpent = eUsage;
+                                if (proxy.Add(clientCertCN,dbp))
                                 {
                                     Console.WriteLine("Added to database!");
                                 }
@@ -94,10 +128,31 @@ namespace ClientApp
                                 }
                                 continue;
                             case 4:
-                                Console.WriteLine("Enter database name: ");
-                                string dbs = Console.ReadLine();
-                                dbs = dbs + ".txt";
-                                if (proxy.Add(dbs, clientCertCN))
+                                DBParam dbp1 = new DBParam();
+                                string path = "C://Users//Administrator.DOMAINADMINS0//Desktop//DataKeep//Vezba5 (resenje)//ServiceApp//bin//Debug//DataBase.txt";
+                                Console.WriteLine("Current database: ");
+                                using (StreamReader sr = new StreamReader(path))
+                                {
+                                    String line;
+                                    while ((line = sr.ReadLine()) != null)
+                                    {
+                                        Console.WriteLine(line);
+                                    }
+                                }
+                                Console.WriteLine("Enter ID of information you want to change: ");
+                                int id1;
+                                string sid1 = Console.ReadLine();
+                                while (!Int32.TryParse(sid1, out id1))
+                                {
+                                    //               Audit.AddFailed("User " + userName + " put wrong parameter for year.");     //ispis u Log fajl za unos losih parametara
+                                    Console.WriteLine("Error, wrong input for year");
+                                }
+                                //dodati proveru da li postoji id u bazi
+                                dbp1.Id = id1;
+
+
+
+                                if (proxy.Edit(clientCertCN,dbp1))
                                 {
                                     Console.WriteLine("Database edited!");
                                 }
