@@ -82,7 +82,7 @@ namespace ClientApp
                     do
                     {
                         Console.WriteLine("================================================");
-                        Console.WriteLine("Welcome {0} chose your action:", clientCertCN);
+                        Console.WriteLine("Wellcome {0} chose your action:", clientCertCN);
                         Console.WriteLine("To create new data base press 1");
                         Console.WriteLine("To delete exsisting data base press 2");
                         Console.WriteLine("To make new parameter in data base press 3");
@@ -97,18 +97,6 @@ namespace ClientApp
                         switch (action)
                         {
                             case 0:
-                                continue;
-                            case 1:
-                                if (!proxy.CreateDatabase(clientCertCN))
-                                    Console.WriteLine("You cannot create a new database");
-                                else
-                                    Console.WriteLine("You created a new database");
-                                continue;
-                            case 2:
-                                if (!proxy.DeleteDatabase(clientCertCN))
-                                    Console.WriteLine("You cannot delete a database");
-                                else
-                                    Console.WriteLine("You deleted the database");
                                 continue;
                             case 3:
                                 DBParam dbp = new DBParam();

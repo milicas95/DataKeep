@@ -61,6 +61,8 @@ C:\Users\Administrator.DOMAINADMINS0\Desktop\proj\DataKeep\Vezba5 (resenje)\Clie
 C:\Users\Administrator.DOMAINADMINS0\Desktop\proj\DataKeep\Vezba5 (resenje)\ClientApp\obj\x86\Debug\ClientApp.csprojResolveAssemblyReference.cache
 C:\Users\Administrator.DOMAINADMINS0\Desktop\proj\DataKeep\Vezba5 (resenje)\ClientApp\obj\x86\Debug\ClientApp.exe
 C:\Users\Administrator.DOMAINADMINS0\Desktop\proj\DataKeep\Vezba5 (resenje)\ClientApp\obj\x86\Debug\ClientApp.pdb
+<<<<<<< HEAD
+=======
 C:\Users\Administrator.DOMAINADMINS0\Desktop\Repository\DataKeep\Vezba5 (resenje)\ClientApp\bin\Debug\ClientApp.exe
 C:\Users\Administrator.DOMAINADMINS0\Desktop\Repository\DataKeep\Vezba5 (resenje)\ClientApp\bin\Debug\ClientApp.pdb
 C:\Users\Administrator.DOMAINADMINS0\Desktop\Repository\DataKeep\Vezba5 (resenje)\ClientApp\bin\Debug\Contracts.dll
@@ -79,6 +81,7 @@ C:\Users\Administrator.DOMAINADMINS0\Desktop\DataKeep\Vezba5 (resenje)\ClientApp
 C:\Users\Administrator.DOMAINADMINS0\Desktop\DataKeep\Vezba5 (resenje)\ClientApp\obj\x86\Debug\ClientApp.csprojResolveAssemblyReference.cache
 C:\Users\Administrator.DOMAINADMINS0\Desktop\DataKeep\Vezba5 (resenje)\ClientApp\obj\x86\Debug\ClientApp.exe
 C:\Users\Administrator.DOMAINADMINS0\Desktop\DataKeep\Vezba5 (resenje)\ClientApp\obj\x86\Debug\ClientApp.pdb
+<<<<<<< HEAD
 C:\Users\Administrator.P05-17\Documents\GitHub\DataKeep\Vezba5 (resenje)\ClientApp\obj\x86\Debug\ClientApp.csprojResolveAssemblyReference.cache
 C:\Users\Administrator.P05-17\Documents\GitHub\DataKeep\Vezba5 (resenje)\ClientApp\obj\x86\Debug\ClientApp.exe
 C:\Users\Administrator.P05-17\Documents\GitHub\DataKeep\Vezba5 (resenje)\ClientApp\obj\x86\Debug\ClientApp.pdb
@@ -90,3 +93,6 @@ C:\Users\Administrator.P05-17\Documents\GitHub\DataKeep\Vezba5 (resenje)\ClientA
 C:\Users\Administrator.P05-17\Documents\GitHub\DataKeep\Vezba5 (resenje)\ClientApp\bin\Debug\Contracts.pdb
 C:\Users\Administrator.P05-17\Documents\GitHub\DataKeep\Vezba5 (resenje)\ClientApp\bin\Debug\DBparam.pdb
 C:\Users\Administrator.P05-17\Documents\GitHub\DataKeep\Vezba5 (resenje)\ClientApp\bin\Debug\Manager.pdb
+=======
+>>>>>>> 6848f57ed3758e1d5fe2ad9c4eac414f0142f89a
+>>>>>>> a0fc13df0e33cfbcf78c2a6d0ada03d1c16601e3

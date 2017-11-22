@@ -94,7 +94,7 @@ namespace ServiceApp
                 }
                 catch (Exception e)
                 {
-    //                Audit.ReadFailed(path, "Exception was thrown");     //ispis u Log fajlu da korisnik nema pravo pisanja
+                    Audit.ReadFailed(path, "Exception was thrown");     //ispis u Log fajlu da korisnik nema pravo pisanja
                     Console.WriteLine("Exception was thrown:");
                     Console.WriteLine(e.Message);
                 }
@@ -317,80 +317,6 @@ namespace ServiceApp
              else
              {
                 //            Audit.CertificateFailed();
-                Console.WriteLine("Certificate is invalid");
-                return false;
-            }
-        }
-
-        public bool CreateDatabase(string userName)
-        {
-            X509Certificate2 cert = CertManager.GetCertificateFromStorage(StoreName.My, StoreLocation.LocalMachine, userName, "Admins");
-
-            string path = "DataBase.txt";
-
-            if (cert != null)
-            {
-                if (!File.Exists(path))
-                {
-                    // Create a file to write to.
-                    try
-                    {
-                        File.CreateText(path);
-                        Console.WriteLine("Successfuly created new database!");
-                        return true;
-                    }
-                    catch (IOException e)
-                    {
-                        Console.WriteLine(e.Message);
-                        return false;
-                    }
-
-                }
-                else
-                {
-                    Console.WriteLine("Database already exists");
-                    return false;
-                }
-            }
-            else
-            {
-                Console.WriteLine("Certificate is invalid");
-                return false;
-            }
-        }
-
-        public bool DeleteDatabase(string userName)
-        {
-            X509Certificate2 cert = CertManager.GetCertificateFromStorage(StoreName.My, StoreLocation.LocalMachine, userName, "Admins");
-
-            string path = "DataBase.txt";
-
-            if (cert != null)
-            {
-                if (File.Exists(path))
-                {
-                    // Delete a file 
-                    try
-                    {
-                        File.Delete(path);
-                        Console.WriteLine("Successfuly deleted database!");
-                        return true;
-                    }
-                    catch (IOException e)
-                    {
-                        Console.WriteLine(e.Message);
-                        return false;
-                    }
-
-                }
-                else
-                {
-                    Console.WriteLine("Database already exists");
-                    return false;
-                }
-            }
-            else
-            {
                 Console.WriteLine("Certificate is invalid");
                 return false;
             }
