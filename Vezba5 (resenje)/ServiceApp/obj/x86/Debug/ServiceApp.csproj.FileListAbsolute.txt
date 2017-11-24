@@ -1,95 +1,3 @@
-C:\Users\Administrator.DOMAINADMINS0\Desktop\New folder\Vezba5 (resenje)\ServiceApp\bin\Debug\ServiceApp.exe
-C:\Users\Administrator.DOMAINADMINS0\Desktop\New folder\Vezba5 (resenje)\ServiceApp\bin\Debug\ServiceApp.pdb
-C:\Users\Administrator.DOMAINADMINS0\Desktop\New folder\Vezba5 (resenje)\ServiceApp\bin\Debug\Contracts.dll
-C:\Users\Administrator.DOMAINADMINS0\Desktop\New folder\Vezba5 (resenje)\ServiceApp\bin\Debug\Manager.dll
-C:\Users\Administrator.DOMAINADMINS0\Desktop\New folder\Vezba5 (resenje)\ServiceApp\bin\Debug\Contracts.pdb
-C:\Users\Administrator.DOMAINADMINS0\Desktop\New folder\Vezba5 (resenje)\ServiceApp\bin\Debug\Manager.pdb
-C:\Users\Administrator.DOMAINADMINS0\Desktop\New folder\Vezba5 (resenje)\ServiceApp\obj\x86\Debug\ServiceApp.csprojResolveAssemblyReference.cache
-C:\Users\Administrator.DOMAINADMINS0\Desktop\New folder\Vezba5 (resenje)\ServiceApp\obj\x86\Debug\ServiceApp.exe
-C:\Users\Administrator.DOMAINADMINS0\Desktop\New folder\Vezba5 (resenje)\ServiceApp\obj\x86\Debug\ServiceApp.pdb
-C:\Users\Danka\Desktop\nrs\fax\2017-2018\Sigurnost i Bezbednost\Vezba5 (resenje)\ServiceApp\obj\x86\Debug\ServiceApp.csprojResolveAssemblyReference.cache
-C:\Users\Administrator.DOMAINADMINS0\Desktop\projekat\Vezba5 (resenje)\ServiceApp\obj\x86\Debug\ServiceApp.csprojResolveAssemblyReference.cache
-C:\Users\Administrator.DOMAINADMINS0\Desktop\projekat\Vezba5 (resenje)\ServiceApp\bin\Debug\ServiceApp.exe
-C:\Users\Administrator.DOMAINADMINS0\Desktop\projekat\Vezba5 (resenje)\ServiceApp\bin\Debug\ServiceApp.pdb
-C:\Users\Administrator.DOMAINADMINS0\Desktop\projekat\Vezba5 (resenje)\ServiceApp\bin\Debug\Contracts.dll
-C:\Users\Administrator.DOMAINADMINS0\Desktop\projekat\Vezba5 (resenje)\ServiceApp\bin\Debug\DBparam.dll
-C:\Users\Administrator.DOMAINADMINS0\Desktop\projekat\Vezba5 (resenje)\ServiceApp\bin\Debug\Manager.dll
-C:\Users\Administrator.DOMAINADMINS0\Desktop\projekat\Vezba5 (resenje)\ServiceApp\bin\Debug\Contracts.pdb
-C:\Users\Administrator.DOMAINADMINS0\Desktop\projekat\Vezba5 (resenje)\ServiceApp\bin\Debug\DBparam.pdb
-C:\Users\Administrator.DOMAINADMINS0\Desktop\projekat\Vezba5 (resenje)\ServiceApp\bin\Debug\Manager.pdb
-C:\Users\Administrator.DOMAINADMINS0\Desktop\projekat\Vezba5 (resenje)\ServiceApp\obj\x86\Debug\ServiceApp.exe
-C:\Users\Administrator.DOMAINADMINS0\Desktop\projekat\Vezba5 (resenje)\ServiceApp\obj\x86\Debug\ServiceApp.pdb
-C:\Users\Administrator.DOMAINADMINS0\Desktop\GitHub\DataKeep\Vezba5 (resenje)\ServiceApp\obj\x86\Debug\ServiceApp.exe
-C:\Users\Administrator.DOMAINADMINS0\Desktop\GitHub\DataKeep\Vezba5 (resenje)\ServiceApp\obj\x86\Debug\ServiceApp.pdb
-C:\Users\Administrator.DOMAINADMINS0\Desktop\GitHub\DataKeep\Vezba5 (resenje)\ServiceApp\bin\Debug\ServiceApp.exe
-C:\Users\Administrator.DOMAINADMINS0\Desktop\GitHub\DataKeep\Vezba5 (resenje)\ServiceApp\bin\Debug\ServiceApp.pdb
-C:\Users\Administrator.DOMAINADMINS0\Desktop\GitHub\DataKeep\Vezba5 (resenje)\ServiceApp\bin\Debug\Contracts.dll
-C:\Users\Administrator.DOMAINADMINS0\Desktop\GitHub\DataKeep\Vezba5 (resenje)\ServiceApp\bin\Debug\DBparam.dll
-C:\Users\Administrator.DOMAINADMINS0\Desktop\GitHub\DataKeep\Vezba5 (resenje)\ServiceApp\bin\Debug\Manager.dll
-C:\Users\Administrator.DOMAINADMINS0\Desktop\GitHub\DataKeep\Vezba5 (resenje)\ServiceApp\bin\Debug\Contracts.pdb
-C:\Users\Administrator.DOMAINADMINS0\Desktop\GitHub\DataKeep\Vezba5 (resenje)\ServiceApp\bin\Debug\DBparam.pdb
-C:\Users\Administrator.DOMAINADMINS0\Desktop\GitHub\DataKeep\Vezba5 (resenje)\ServiceApp\bin\Debug\Manager.pdb
-C:\Users\Administrator.DOMAINADMINS0\Desktop\GitHub\DataKeep\Vezba5 (resenje)\ServiceApp\obj\x86\Debug\ServiceApp.csprojResolveAssemblyReference.cache
-C:\Users\Administrator.DOMAINADMINS0\Documents\GitHub\DataKeep\Vezba5 (resenje)\ServiceApp\obj\x86\Debug\ServiceApp.exe
-C:\Users\Administrator.DOMAINADMINS0\Documents\GitHub\DataKeep\Vezba5 (resenje)\ServiceApp\obj\x86\Debug\ServiceApp.pdb
-C:\Users\Administrator.DOMAINADMINS0\Desktop\New folder\DataKeep\Vezba5 (resenje)\ServiceApp\bin\Debug\ServiceApp.exe
-C:\Users\Administrator.DOMAINADMINS0\Desktop\New folder\DataKeep\Vezba5 (resenje)\ServiceApp\bin\Debug\ServiceApp.pdb
-C:\Users\Administrator.DOMAINADMINS0\Desktop\New folder\DataKeep\Vezba5 (resenje)\ServiceApp\bin\Debug\Contracts.dll
-C:\Users\Administrator.DOMAINADMINS0\Desktop\New folder\DataKeep\Vezba5 (resenje)\ServiceApp\bin\Debug\DBparam.dll
-C:\Users\Administrator.DOMAINADMINS0\Desktop\New folder\DataKeep\Vezba5 (resenje)\ServiceApp\bin\Debug\Manager.dll
-C:\Users\Administrator.DOMAINADMINS0\Desktop\New folder\DataKeep\Vezba5 (resenje)\ServiceApp\bin\Debug\Contracts.pdb
-C:\Users\Administrator.DOMAINADMINS0\Desktop\New folder\DataKeep\Vezba5 (resenje)\ServiceApp\bin\Debug\DBparam.pdb
-C:\Users\Administrator.DOMAINADMINS0\Desktop\New folder\DataKeep\Vezba5 (resenje)\ServiceApp\bin\Debug\Manager.pdb
-C:\Users\Administrator.DOMAINADMINS0\Desktop\New folder\DataKeep\Vezba5 (resenje)\ServiceApp\obj\x86\Debug\ServiceApp.csprojResolveAssemblyReference.cache
-C:\Users\Administrator.DOMAINADMINS0\Desktop\New folder\DataKeep\Vezba5 (resenje)\ServiceApp\obj\x86\Debug\ServiceApp.exe
-C:\Users\Administrator.DOMAINADMINS0\Desktop\New folder\DataKeep\Vezba5 (resenje)\ServiceApp\obj\x86\Debug\ServiceApp.pdb
-C:\Users\Administrator.DOMAINADMINS0\Desktop\Repository\DataKeep\Vezba5 (resenje)\ServiceApp\bin\Debug\ServiceApp.exe
-C:\Users\Administrator.DOMAINADMINS0\Desktop\Repository\DataKeep\Vezba5 (resenje)\ServiceApp\bin\Debug\ServiceApp.pdb
-C:\Users\Administrator.DOMAINADMINS0\Desktop\Repository\DataKeep\Vezba5 (resenje)\ServiceApp\bin\Debug\Contracts.dll
-C:\Users\Administrator.DOMAINADMINS0\Desktop\Repository\DataKeep\Vezba5 (resenje)\ServiceApp\bin\Debug\DBparam.dll
-C:\Users\Administrator.DOMAINADMINS0\Desktop\Repository\DataKeep\Vezba5 (resenje)\ServiceApp\bin\Debug\Manager.dll
-C:\Users\Administrator.DOMAINADMINS0\Desktop\Repository\DataKeep\Vezba5 (resenje)\ServiceApp\bin\Debug\Contracts.pdb
-C:\Users\Administrator.DOMAINADMINS0\Desktop\Repository\DataKeep\Vezba5 (resenje)\ServiceApp\bin\Debug\DBparam.pdb
-C:\Users\Administrator.DOMAINADMINS0\Desktop\Repository\DataKeep\Vezba5 (resenje)\ServiceApp\bin\Debug\Manager.pdb
-C:\Users\Administrator.DOMAINADMINS0\Desktop\Repository\DataKeep\Vezba5 (resenje)\ServiceApp\obj\x86\Debug\ServiceApp.csprojResolveAssemblyReference.cache
-C:\Users\Administrator.DOMAINADMINS0\Desktop\Repository\DataKeep\Vezba5 (resenje)\ServiceApp\obj\x86\Debug\ServiceApp.exe
-C:\Users\Administrator.DOMAINADMINS0\Desktop\Repository\DataKeep\Vezba5 (resenje)\ServiceApp\obj\x86\Debug\ServiceApp.pdb
-C:\Users\Administrator.DOMAINADMINS0\Documents\GitHub\DataKeep\Vezba5 (resenje)\ServiceApp\bin\Debug\ServiceApp.exe
-C:\Users\Administrator.DOMAINADMINS0\Documents\GitHub\DataKeep\Vezba5 (resenje)\ServiceApp\bin\Debug\ServiceApp.pdb
-C:\Users\Administrator.DOMAINADMINS0\Documents\GitHub\DataKeep\Vezba5 (resenje)\ServiceApp\bin\Debug\Contracts.dll
-C:\Users\Administrator.DOMAINADMINS0\Documents\GitHub\DataKeep\Vezba5 (resenje)\ServiceApp\bin\Debug\DBparam.dll
-C:\Users\Administrator.DOMAINADMINS0\Documents\GitHub\DataKeep\Vezba5 (resenje)\ServiceApp\bin\Debug\Manager.dll
-C:\Users\Administrator.DOMAINADMINS0\Documents\GitHub\DataKeep\Vezba5 (resenje)\ServiceApp\bin\Debug\Contracts.pdb
-C:\Users\Administrator.DOMAINADMINS0\Documents\GitHub\DataKeep\Vezba5 (resenje)\ServiceApp\bin\Debug\DBparam.pdb
-C:\Users\Administrator.DOMAINADMINS0\Documents\GitHub\DataKeep\Vezba5 (resenje)\ServiceApp\bin\Debug\Manager.pdb
-C:\Users\Administrator.DOMAINADMINS0\Documents\GitHub\DataKeep\Vezba5 (resenje)\ServiceApp\obj\x86\Debug\ServiceApp.csprojResolveAssemblyReference.cache
-C:\Users\Administrator.DOMAINADMINS0\Desktop\proj\DataKeep\Vezba5 (resenje)\ServiceApp\bin\Debug\ServiceApp.exe
-C:\Users\Administrator.DOMAINADMINS0\Desktop\proj\DataKeep\Vezba5 (resenje)\ServiceApp\bin\Debug\ServiceApp.pdb
-C:\Users\Administrator.DOMAINADMINS0\Desktop\proj\DataKeep\Vezba5 (resenje)\ServiceApp\bin\Debug\Contracts.dll
-C:\Users\Administrator.DOMAINADMINS0\Desktop\proj\DataKeep\Vezba5 (resenje)\ServiceApp\bin\Debug\DBparam.dll
-C:\Users\Administrator.DOMAINADMINS0\Desktop\proj\DataKeep\Vezba5 (resenje)\ServiceApp\bin\Debug\Manager.dll
-C:\Users\Administrator.DOMAINADMINS0\Desktop\proj\DataKeep\Vezba5 (resenje)\ServiceApp\bin\Debug\Contracts.pdb
-C:\Users\Administrator.DOMAINADMINS0\Desktop\proj\DataKeep\Vezba5 (resenje)\ServiceApp\bin\Debug\DBparam.pdb
-C:\Users\Administrator.DOMAINADMINS0\Desktop\proj\DataKeep\Vezba5 (resenje)\ServiceApp\bin\Debug\Manager.pdb
-C:\Users\Administrator.DOMAINADMINS0\Desktop\proj\DataKeep\Vezba5 (resenje)\ServiceApp\obj\x86\Debug\ServiceApp.csprojResolveAssemblyReference.cache
-C:\Users\Administrator.DOMAINADMINS0\Desktop\proj\DataKeep\Vezba5 (resenje)\ServiceApp\obj\x86\Debug\ServiceApp.exe
-C:\Users\Administrator.DOMAINADMINS0\Desktop\proj\DataKeep\Vezba5 (resenje)\ServiceApp\obj\x86\Debug\ServiceApp.pdb
-<<<<<<< HEAD
-=======
-C:\Users\Administrator.DOMAINADMINS0\Desktop\DataKeep\Vezba5 (resenje)\ServiceApp\obj\x86\Debug\ServiceApp.exe
-C:\Users\Administrator.DOMAINADMINS0\Desktop\DataKeep\Vezba5 (resenje)\ServiceApp\obj\x86\Debug\ServiceApp.pdb
-C:\Users\Administrator.DOMAINADMINS0\Desktop\DataKeep\Vezba5 (resenje)\ServiceApp\bin\Debug\ServiceApp.exe
-C:\Users\Administrator.DOMAINADMINS0\Desktop\DataKeep\Vezba5 (resenje)\ServiceApp\bin\Debug\ServiceApp.pdb
-C:\Users\Administrator.DOMAINADMINS0\Desktop\DataKeep\Vezba5 (resenje)\ServiceApp\bin\Debug\Contracts.dll
-C:\Users\Administrator.DOMAINADMINS0\Desktop\DataKeep\Vezba5 (resenje)\ServiceApp\bin\Debug\DBparam.dll
-C:\Users\Administrator.DOMAINADMINS0\Desktop\DataKeep\Vezba5 (resenje)\ServiceApp\bin\Debug\Manager.dll
-C:\Users\Administrator.DOMAINADMINS0\Desktop\DataKeep\Vezba5 (resenje)\ServiceApp\bin\Debug\Contracts.pdb
-C:\Users\Administrator.DOMAINADMINS0\Desktop\DataKeep\Vezba5 (resenje)\ServiceApp\bin\Debug\DBparam.pdb
-C:\Users\Administrator.DOMAINADMINS0\Desktop\DataKeep\Vezba5 (resenje)\ServiceApp\bin\Debug\Manager.pdb
-C:\Users\Administrator.DOMAINADMINS0\Desktop\DataKeep\Vezba5 (resenje)\ServiceApp\obj\x86\Debug\ServiceApp.csprojResolveAssemblyReference.cache
-C:\Users\Administrator.P05-17\Documents\GitHub\DataKeep\Vezba5 (resenje)\ServiceApp\obj\x86\Debug\ServiceApp.exe
-C:\Users\Administrator.P05-17\Documents\GitHub\DataKeep\Vezba5 (resenje)\ServiceApp\obj\x86\Debug\ServiceApp.pdb
-C:\Users\Administrator.P05-17\Documents\GitHub\DataKeep\Vezba5 (resenje)\ServiceApp\obj\x86\Debug\ServiceApp.csprojResolveAssemblyReference.cache
 C:\Users\Administrator.P05-17\Documents\GitHub\DataKeep\Vezba5 (resenje)\ServiceApp\bin\Debug\ServiceApp.exe
 C:\Users\Administrator.P05-17\Documents\GitHub\DataKeep\Vezba5 (resenje)\ServiceApp\bin\Debug\ServiceApp.pdb
 C:\Users\Administrator.P05-17\Documents\GitHub\DataKeep\Vezba5 (resenje)\ServiceApp\bin\Debug\Contracts.dll
@@ -98,5 +6,41 @@ C:\Users\Administrator.P05-17\Documents\GitHub\DataKeep\Vezba5 (resenje)\Service
 C:\Users\Administrator.P05-17\Documents\GitHub\DataKeep\Vezba5 (resenje)\ServiceApp\bin\Debug\Contracts.pdb
 C:\Users\Administrator.P05-17\Documents\GitHub\DataKeep\Vezba5 (resenje)\ServiceApp\bin\Debug\DBparam.pdb
 C:\Users\Administrator.P05-17\Documents\GitHub\DataKeep\Vezba5 (resenje)\ServiceApp\bin\Debug\Manager.pdb
->>>>>>> 6848f57ed3758e1d5fe2ad9c4eac414f0142f89a
->>>>>>> a0fc13df0e33cfbcf78c2a6d0ada03d1c16601e3
+C:\Users\Administrator.P05-17\Documents\GitHub\DataKeep\Vezba5 (resenje)\ServiceApp\obj\x86\Debug\ServiceApp.csprojResolveAssemblyReference.cache
+C:\Users\Administrator.P05-17\Documents\GitHub\DataKeep\Vezba5 (resenje)\ServiceApp\obj\x86\Debug\ServiceApp.exe
+C:\Users\Administrator.P05-17\Documents\GitHub\DataKeep\Vezba5 (resenje)\ServiceApp\obj\x86\Debug\ServiceApp.pdb
+C:\Users\Administrator.DOMAINADMINS0\Desktop\Blok2\Vezba5 (resenje)\ServiceApp\obj\x86\Debug\ServiceApp.exe
+C:\Users\Administrator.DOMAINADMINS0\Desktop\Blok2\Vezba5 (resenje)\ServiceApp\obj\x86\Debug\ServiceApp.pdb
+C:\Users\Administrator.DOMAINADMINS0\Desktop\Blok2\Vezba5 (resenje)\ServiceApp\bin\Debug\ServiceApp.exe
+C:\Users\Administrator.DOMAINADMINS0\Desktop\Blok2\Vezba5 (resenje)\ServiceApp\bin\Debug\ServiceApp.pdb
+C:\Users\Administrator.DOMAINADMINS0\Desktop\Blok2\Vezba5 (resenje)\ServiceApp\bin\Debug\Contracts.dll
+C:\Users\Administrator.DOMAINADMINS0\Desktop\Blok2\Vezba5 (resenje)\ServiceApp\bin\Debug\DBparam.dll
+C:\Users\Administrator.DOMAINADMINS0\Desktop\Blok2\Vezba5 (resenje)\ServiceApp\bin\Debug\Manager.dll
+C:\Users\Administrator.DOMAINADMINS0\Desktop\Blok2\Vezba5 (resenje)\ServiceApp\bin\Debug\Contracts.pdb
+C:\Users\Administrator.DOMAINADMINS0\Desktop\Blok2\Vezba5 (resenje)\ServiceApp\bin\Debug\DBparam.pdb
+C:\Users\Administrator.DOMAINADMINS0\Desktop\Blok2\Vezba5 (resenje)\ServiceApp\bin\Debug\Manager.pdb
+C:\Users\Administrator.DOMAINADMINS0\Desktop\Blok2\Vezba5 (resenje)\ServiceApp\obj\x86\Debug\ServiceApp.csprojResolveAssemblyReference.cache
+C:\Users\Administrator.DOMAINADMINS0\Desktop\Vezba5 (resenje)\ServiceApp\obj\x86\Debug\ServiceApp.exe
+C:\Users\Administrator.DOMAINADMINS0\Desktop\Vezba5 (resenje)\ServiceApp\obj\x86\Debug\ServiceApp.pdb
+C:\Users\Katarina\Desktop\Vezba5 (resenje) - Milicino zatvaranje datoteka\ServiceApp\bin\Debug\ServiceApp.exe
+C:\Users\Katarina\Desktop\Vezba5 (resenje) - Milicino zatvaranje datoteka\ServiceApp\bin\Debug\ServiceApp.pdb
+C:\Users\Katarina\Desktop\Vezba5 (resenje) - Milicino zatvaranje datoteka\ServiceApp\bin\Debug\Contracts.dll
+C:\Users\Katarina\Desktop\Vezba5 (resenje) - Milicino zatvaranje datoteka\ServiceApp\bin\Debug\DBparam.dll
+C:\Users\Katarina\Desktop\Vezba5 (resenje) - Milicino zatvaranje datoteka\ServiceApp\bin\Debug\Manager.dll
+C:\Users\Katarina\Desktop\Vezba5 (resenje) - Milicino zatvaranje datoteka\ServiceApp\bin\Debug\Contracts.pdb
+C:\Users\Katarina\Desktop\Vezba5 (resenje) - Milicino zatvaranje datoteka\ServiceApp\bin\Debug\DBparam.pdb
+C:\Users\Katarina\Desktop\Vezba5 (resenje) - Milicino zatvaranje datoteka\ServiceApp\bin\Debug\Manager.pdb
+C:\Users\Katarina\Desktop\Vezba5 (resenje) - Milicino zatvaranje datoteka\ServiceApp\obj\x86\Debug\ServiceApp.csprojResolveAssemblyReference.cache
+C:\Users\Katarina\Desktop\Vezba5 (resenje) - Milicino zatvaranje datoteka\ServiceApp\obj\x86\Debug\ServiceApp.exe
+C:\Users\Katarina\Desktop\Vezba5 (resenje) - Milicino zatvaranje datoteka\ServiceApp\obj\x86\Debug\ServiceApp.pdb
+C:\Users\Administrator.DOMAINADMINS0\Desktop\Staviti na GIT\ServiceApp\obj\x86\Debug\ServiceApp.exe
+C:\Users\Administrator.DOMAINADMINS0\Desktop\Staviti na GIT\ServiceApp\obj\x86\Debug\ServiceApp.pdb
+C:\Users\Administrator.DOMAINADMINS0\Desktop\Staviti na GIT\ServiceApp\bin\Debug\ServiceApp.exe
+C:\Users\Administrator.DOMAINADMINS0\Desktop\Staviti na GIT\ServiceApp\bin\Debug\ServiceApp.pdb
+C:\Users\Administrator.DOMAINADMINS0\Desktop\Staviti na GIT\ServiceApp\bin\Debug\Contracts.dll
+C:\Users\Administrator.DOMAINADMINS0\Desktop\Staviti na GIT\ServiceApp\bin\Debug\DBparam.dll
+C:\Users\Administrator.DOMAINADMINS0\Desktop\Staviti na GIT\ServiceApp\bin\Debug\Manager.dll
+C:\Users\Administrator.DOMAINADMINS0\Desktop\Staviti na GIT\ServiceApp\bin\Debug\Contracts.pdb
+C:\Users\Administrator.DOMAINADMINS0\Desktop\Staviti na GIT\ServiceApp\bin\Debug\DBparam.pdb
+C:\Users\Administrator.DOMAINADMINS0\Desktop\Staviti na GIT\ServiceApp\bin\Debug\Manager.pdb
+C:\Users\Administrator.DOMAINADMINS0\Desktop\Staviti na GIT\ServiceApp\obj\x86\Debug\ServiceApp.csprojResolveAssemblyReference.cache

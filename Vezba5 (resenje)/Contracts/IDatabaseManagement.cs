@@ -26,9 +26,9 @@ namespace Contracts
         bool Edit(string userName, DBParam bdp);
 
         [OperationContract]
-        bool CreateDatabase(string userName);
+        string CreateDatabase(string userName);
 
         [OperationContract]
-        bool DeleteDatabase(string userName);
+        string DeleteDatabase(string userName);
     }
 }

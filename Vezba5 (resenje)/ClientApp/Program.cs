@@ -94,60 +94,106 @@ namespace ClientApp
                         Console.WriteLine("================================================");
                         action = Convert.ToInt32(Console.ReadLine());
 
+                        string s;
                         switch (action)
                         {
                             case 0:
                                 continue;
+                            case 1:
+                                s = proxy.CreateDatabase(clientCertCN);
+                                if (s != "")
+                                    Console.WriteLine(s);
+                                continue;
+                            case 2:
+                                s = proxy.DeleteDatabase(clientCertCN);
+                                if (s != "")
+                                    Console.WriteLine(s);
+                                continue;
                             case 3:
                                 DBParam dbp = new DBParam();
+                                string path1 = "C://Users//Administrator.DOMAINADMINS0//Desktop//Staviti na GIT//ServiceApp//bin//Debug";
+                                List<int> IDs = new List<int>();
+                                string[] lines = File.ReadAllLines(path1);
+                                for (int i = 0; i < lines.Count(); i++)
+                                {
+                                    string[] separeted = lines[i].Split('/');
+                                    IDs.Add(Convert.ToInt32(separeted[0]));
+                                }
                                 Console.WriteLine("Enter ID: ");
                                 int id;
                                 string sid = Console.ReadLine();
                                 while (!Int32.TryParse(sid, out id))
                                 {
-                                    //               Audit.AddFailed("User " + userName + " put wrong parameter for year.");     //ispis u Log fajl za unos losih parametara
-                                    Console.WriteLine("Error, wrong input for year");
+                                    //Audit.AddFailed("User " + userName + " put wrong parameter for id.");     //ispis u Log fajl za unos losih parametara
+                                    Console.WriteLine("Error, wrong input for ID");
                                 }
-                                //dodati proveru da li postoji id u bazi
-                                dbp.Id = id;
-                                Console.WriteLine("Enter region: ");
-                                dbp.Region = Console.ReadLine();
-                                Console.WriteLine("Enter city: ");
-                                dbp.City = Console.ReadLine();
-                                Console.WriteLine("Enter year: ");
-                                int year;
-                                string syear = Console.ReadLine();
-                                while (!Int32.TryParse(syear, out year))
+                                int find = 0;
+                                foreach (int i in IDs)
                                 {
-                                    //               Audit.AddFailed("User " + userName + " put wrong parameter for year.");     //ispis u Log fajl za unos losih parametara
-                                    Console.WriteLine("Error, wrong input for year");
+                                    if (i == id)
+                                    {
+                                        find = 1;
+                                    }
                                 }
-                                dbp.Year = year;
-                                Console.WriteLine("Enter month: ");
-                                dbp.Month = Console.ReadLine();
-                                Console.WriteLine("Enter usage: ");
-                                int eUsage;
-                                string seUsage = Console.ReadLine();
-                                while (!Int32.TryParse(seUsage, out eUsage))
+                                switch(find)
                                 {
-                                    //               Audit.AddFailed("User " + userName + " put wrong parameter for usage.");        //ispis u Log fajl za unos losih parametara
-                                    Console.WriteLine("Error, wrong input for usage");
-                                }
-                                dbp.ElEnergySpent = eUsage;
-                                if (proxy.Add(clientCertCN,dbp))
-                                {
-                                    Console.WriteLine("Added to database!");
-                                }
-                                else
-                                {
-                                    Console.WriteLine("Error! Information can't be added to database!");
+                                    case 0:
+                                        dbp.Id = id;
+                                        Console.WriteLine("Enter region: ");
+                                        dbp.Region = Console.ReadLine();
+                                        Console.WriteLine("Enter city: ");
+                                        dbp.City = Console.ReadLine();
+                                        Console.WriteLine("Enter year: ");
+                                        int year;
+                                        string syear = Console.ReadLine();
+                                        while (!Int32.TryParse(syear, out year))
+                                        {
+                                            //Audit.AddFailed("User " + userName + " put wrong parameter for year.");     //ispis u Log fajl za unos losih parametara
+                                            Console.WriteLine("Error, wrong input for year");
+                                        }
+                                        dbp.Year = year;
+                                        Console.WriteLine("Enter month: ");
+                                        dbp.Month = Console.ReadLine();
+                                        Console.WriteLine("Enter usage: ");
+                                        int eUsage;
+                                        string seUsage = Console.ReadLine();
+                                        while (!Int32.TryParse(seUsage, out eUsage))
+                                        {
+                                            //Audit.AddFailed("User " + userName + " put wrong parameter for usage.");        //ispis u Log fajl za unos losih parametara
+                                            Console.WriteLine("Error, wrong input for usage");
+                                        }
+                                        dbp.ElEnergySpent = eUsage;
+                                        if (proxy.Add(clientCertCN, dbp))
+                                        {
+                                            Console.WriteLine("Added to batabase!");
+                                        }
+                                        else
+                                        {
+                                            Console.WriteLine("Error! Information can't be added!");
+                                        }
+                                        break;
+                                    case 1:
+                                        //Audit.AddFailed("ID already exists.");     //ispis u Log fajl za unos losih parametara
+                                        Console.WriteLine("ID exists!");
+                                        break;
+                                    default:
+                                        break;
                                 }
                                 continue;
                             case 4:
+                                string path2 = "C://Users//Administrator.DOMAINADMINS0//Desktop//Staviti na GIT//ServiceApp//bin//Debug";
                                 DBParam dbp1 = new DBParam();
-                                string path = "C://Users//Administrator.DOMAINADMINS0//Desktop//DataKeep//Vezba5 (resenje)//ServiceApp//bin//Debug//DataBase.txt";
+                                List<int> IDs1 = new List<int>();
+
+                                string[] lines1 = File.ReadAllLines(path2);
+
+                                for (int i = 0; i < lines1.Count(); i++)
+                                {
+                                    string[] separeted = lines1[i].Split('/');
+                                    IDs1.Add(Convert.ToInt32(separeted[0]));
+                                }
                                 Console.WriteLine("Current database: ");
-                                using (StreamReader sr = new StreamReader(path))
+                                using (StreamReader sr = new StreamReader(path2))
                                 {
                                     String line;
                                     while ((line = sr.ReadLine()) != null)
@@ -160,21 +206,62 @@ namespace ClientApp
                                 string sid1 = Console.ReadLine();
                                 while (!Int32.TryParse(sid1, out id1))
                                 {
-                                    //               Audit.AddFailed("User " + userName + " put wrong parameter for year.");     //ispis u Log fajl za unos losih parametara
-                                    Console.WriteLine("Error, wrong input for year");
+                                    //Audit.EditFailed("User " + userName + " put wrong parameter for ID.");     //ispis u Log fajl za unos losih parametara
+                                    Console.WriteLine("Error, wrong input for ID");
                                 }
-                                //dodati proveru da li postoji id u bazi
-                                dbp1.Id = id1;
-
-
-
-                                if (proxy.Edit(clientCertCN,dbp1))
+                                int find1 = 0;
+                                foreach (int i in IDs1)
                                 {
-                                    Console.WriteLine("Database edited!");
+                                    if (i == id1)
+                                    {
+                                        find1 = 1;
+                                    }
                                 }
-                                else
+                                switch (find1)
                                 {
-                                    Console.WriteLine("Error! Information can't be edited!");
+                                    case 0:
+                                        //Audit.AddFailed("ID already exists.");     //ispis u Log fajl za unos losih parametara
+                                        Console.WriteLine("ID doesn't exists!");
+                                        break;
+                                    case 1:
+                                        int counter = 0;
+                                        string[] lines2 = File.ReadAllLines(path2);
+                                        for (int i = 0; i < lines2.Count(); i++)
+                                        {
+                                            string[] separeted = lines2[i].Split('/');
+                                            if (separeted[0] != sid1)          //pronadjena ta linija IDja
+                                            {
+                                                counter++;      //broji na kojoj liniji je taj entitet
+                                            }
+                                            else
+                                            {
+                                                break;
+                                            }
+                                        }
+                                        Console.WriteLine("Enter new informations: ");
+                                        dbp1.Id = id1;
+                                        Console.WriteLine("Region");
+                                        dbp1.Region = Console.ReadLine();
+                                        Console.WriteLine("City");
+                                        dbp1.City = Console.ReadLine();
+                                        Console.WriteLine("Year");
+                                        dbp1.Year = Convert.ToInt32(Console.ReadLine());
+                                        Console.WriteLine("Month");
+                                        dbp1.Month = Console.ReadLine();
+                                        Console.WriteLine("Usage");
+                                        dbp1.ElEnergySpent = Convert.ToInt32(Console.ReadLine());
+                                        dbp1.CNT = counter;
+                                        if (proxy.Edit(clientCertCN, dbp1))
+                                        {
+                                            Console.WriteLine("Database edited!");
+                                        }
+                                        else
+                                        {
+                                            Console.WriteLine("Error! Information can't be edited!");
+                                        }
+                                        break;
+                                    default:
+                                        break;
                                 }
                                 continue;
                             case 5:

@@ -107,7 +107,7 @@ namespace ClientApp
             }
         }
 
-        public bool CreateDatabase(string userName)
+        public string CreateDatabase(string userName)
         {
             try
             {
@@ -116,11 +116,11 @@ namespace ClientApp
             catch (Exception e)
             {
                 Console.WriteLine("[Create] Error={0}", e.Message);
-                return false;
+                return "";
             }
         }
 
-        public bool DeleteDatabase(string userName)
+        public string DeleteDatabase(string userName)
         {
             try
             {
@@ -129,7 +129,7 @@ namespace ClientApp
             catch (Exception e)
             {
                 Console.WriteLine("[Delete] Error={0}", e.Message);
-                return false;
+                return "";
             }
         }
 

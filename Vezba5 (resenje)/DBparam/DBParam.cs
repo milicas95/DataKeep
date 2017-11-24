@@ -14,11 +14,10 @@ namespace DBparam
         private int year;
         private string month;
         private int elEnergySpent;
-        private List<int> ids;          //list svih IDjeva u bazi
 
         public DBParam() { }
 
-        public List<int> IDs { get; set; }
+        public int CNT { get; set; }
 
         public int Id { get; set; }
 
