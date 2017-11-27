@@ -7,6 +7,7 @@
 7/Centralna Srbija/Beograd/2017/Feb/321
 8/Centralna Srbija/Beograd/2017/Feb/321
 9/Centralna Srbija/Beograd/2017/Feb/321
-10/Vojvodina/Zrenjanin/2017/Feb/321
+10/Banat/Zrenjanin/Mar/321
 11/Vojvodina/Zrenjanin/2017/Feb/5265
 12/Vojvodina/Zrenjanin/2017/Feb/7899
+13/Srem/Ruma/2017/May/7541

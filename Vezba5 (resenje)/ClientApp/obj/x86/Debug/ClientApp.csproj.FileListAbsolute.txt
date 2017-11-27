@@ -42,3 +42,14 @@ C:\Users\Administrator.DOMAINADMINS0\Desktop\Staviti na GIT\ClientApp\bin\Debug\
 C:\Users\Administrator.DOMAINADMINS0\Desktop\Staviti na GIT\ClientApp\obj\x86\Debug\ClientApp.exe
 C:\Users\Administrator.DOMAINADMINS0\Desktop\Staviti na GIT\ClientApp\obj\x86\Debug\ClientApp.pdb
 C:\Users\Administrator.DOMAINADMINS0\Desktop\Staviti na GIT\ClientApp\obj\x86\Debug\ClientApp.csprojResolveAssemblyReference.cache
+C:\Users\Administrator.DOMAINADMINS0\Desktop\DataKeep\Vezba5 (resenje)\ClientApp\bin\Debug\ClientApp.exe
+C:\Users\Administrator.DOMAINADMINS0\Desktop\DataKeep\Vezba5 (resenje)\ClientApp\bin\Debug\ClientApp.pdb
+C:\Users\Administrator.DOMAINADMINS0\Desktop\DataKeep\Vezba5 (resenje)\ClientApp\bin\Debug\Contracts.dll
+C:\Users\Administrator.DOMAINADMINS0\Desktop\DataKeep\Vezba5 (resenje)\ClientApp\bin\Debug\DBparam.dll
+C:\Users\Administrator.DOMAINADMINS0\Desktop\DataKeep\Vezba5 (resenje)\ClientApp\bin\Debug\Manager.dll
+C:\Users\Administrator.DOMAINADMINS0\Desktop\DataKeep\Vezba5 (resenje)\ClientApp\bin\Debug\Contracts.pdb
+C:\Users\Administrator.DOMAINADMINS0\Desktop\DataKeep\Vezba5 (resenje)\ClientApp\bin\Debug\DBparam.pdb
+C:\Users\Administrator.DOMAINADMINS0\Desktop\DataKeep\Vezba5 (resenje)\ClientApp\bin\Debug\Manager.pdb
+C:\Users\Administrator.DOMAINADMINS0\Desktop\DataKeep\Vezba5 (resenje)\ClientApp\obj\x86\Debug\ClientApp.csprojResolveAssemblyReference.cache
+C:\Users\Administrator.DOMAINADMINS0\Desktop\DataKeep\Vezba5 (resenje)\ClientApp\obj\x86\Debug\ClientApp.exe
+C:\Users\Administrator.DOMAINADMINS0\Desktop\DataKeep\Vezba5 (resenje)\ClientApp\obj\x86\Debug\ClientApp.pdb

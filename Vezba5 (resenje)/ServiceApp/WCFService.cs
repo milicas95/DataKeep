@@ -248,12 +248,12 @@ namespace ServiceApp
         public bool Add(string userName, DBParam dbp)
         {
             X509Certificate2 cert = CertManager.GetCertificateFromStorage(StoreName.My, StoreLocation.LocalMachine, userName, "Writers");
-            //    Audit.AuthorizationSuccess(userName, OperationContext.Current.IncomingMessageHeaders.Action);       //ispis da je autentifikovan korisnik
+            //Audit.AuthorizationSuccess(userName, OperationContext.Current.IncomingMessageHeaders.Action);       //ispis da je autentifikovan korisnik
             string path = "DataBase.txt";
 
             if (cert != null)
             {
-                //   Audit.CertificateSuccess();     //ispis u Log fajl da je ok certifikat
+                Audit.CertificateSuccess();     //ispis u Log fajl da je ok certifikat
                 //      Audit.ReadSuccess(database);        //ispis u Log fajl da je uspesno procitana (otvorena) datoteka
 
                 try

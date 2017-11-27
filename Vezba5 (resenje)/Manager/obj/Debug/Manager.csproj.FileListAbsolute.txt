@@ -24,3 +24,10 @@ C:\Users\Administrator.DOMAINADMINS0\Desktop\Staviti na GIT\Manager\obj\Debug\Ma
 C:\Users\Administrator.DOMAINADMINS0\Desktop\Staviti na GIT\Manager\obj\Debug\Manager.csproj.GenerateResource.Cache
 C:\Users\Administrator.DOMAINADMINS0\Desktop\Staviti na GIT\Manager\obj\Debug\Manager.dll
 C:\Users\Administrator.DOMAINADMINS0\Desktop\Staviti na GIT\Manager\obj\Debug\Manager.pdb
+C:\Users\Administrator.DOMAINADMINS0\Desktop\DataKeep\Vezba5 (resenje)\Manager\bin\Debug\Manager.dll
+C:\Users\Administrator.DOMAINADMINS0\Desktop\DataKeep\Vezba5 (resenje)\Manager\bin\Debug\Manager.pdb
+C:\Users\Administrator.DOMAINADMINS0\Desktop\DataKeep\Vezba5 (resenje)\Manager\obj\Debug\Manager.csprojResolveAssemblyReference.cache
+C:\Users\Administrator.DOMAINADMINS0\Desktop\DataKeep\Vezba5 (resenje)\Manager\obj\Debug\Manager.AuditEventsFile.resources
+C:\Users\Administrator.DOMAINADMINS0\Desktop\DataKeep\Vezba5 (resenje)\Manager\obj\Debug\Manager.csproj.GenerateResource.Cache
+C:\Users\Administrator.DOMAINADMINS0\Desktop\DataKeep\Vezba5 (resenje)\Manager\obj\Debug\Manager.dll
+C:\Users\Administrator.DOMAINADMINS0\Desktop\DataKeep\Vezba5 (resenje)\Manager\obj\Debug\Manager.pdb

@@ -26,3 +26,10 @@ C:\Users\Administrator.DOMAINADMINS0\Desktop\Staviti na GIT\Contracts\bin\Debug\
 C:\Users\Administrator.DOMAINADMINS0\Desktop\Staviti na GIT\Contracts\obj\Debug\Contracts.csprojResolveAssemblyReference.cache
 C:\Users\Administrator.DOMAINADMINS0\Desktop\Staviti na GIT\Contracts\obj\Debug\Contracts.dll
 C:\Users\Administrator.DOMAINADMINS0\Desktop\Staviti na GIT\Contracts\obj\Debug\Contracts.pdb
+C:\Users\Administrator.DOMAINADMINS0\Desktop\DataKeep\Vezba5 (resenje)\Contracts\bin\Debug\Contracts.dll
+C:\Users\Administrator.DOMAINADMINS0\Desktop\DataKeep\Vezba5 (resenje)\Contracts\bin\Debug\Contracts.pdb
+C:\Users\Administrator.DOMAINADMINS0\Desktop\DataKeep\Vezba5 (resenje)\Contracts\bin\Debug\DBparam.dll
+C:\Users\Administrator.DOMAINADMINS0\Desktop\DataKeep\Vezba5 (resenje)\Contracts\bin\Debug\DBparam.pdb
+C:\Users\Administrator.DOMAINADMINS0\Desktop\DataKeep\Vezba5 (resenje)\Contracts\obj\Debug\Contracts.csprojResolveAssemblyReference.cache
+C:\Users\Administrator.DOMAINADMINS0\Desktop\DataKeep\Vezba5 (resenje)\Contracts\obj\Debug\Contracts.dll
+C:\Users\Administrator.DOMAINADMINS0\Desktop\DataKeep\Vezba5 (resenje)\Contracts\obj\Debug\Contracts.pdb

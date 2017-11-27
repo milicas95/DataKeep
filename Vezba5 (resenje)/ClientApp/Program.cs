@@ -111,7 +111,7 @@ namespace ClientApp
                                 continue;
                             case 3:
                                 DBParam dbp = new DBParam();
-                                string path1 = "C://Users//Administrator.DOMAINADMINS0//Desktop//Staviti na GIT//ServiceApp//bin//Debug";
+                                string path1 = "C://Users//Administrator.DOMAINADMINS0//Desktop//DataKeep//Vezba5 (resenje)//ServiceApp//bin//Debug//DataBase.txt";
                                 List<int> IDs = new List<int>();
                                 string[] lines = File.ReadAllLines(path1);
                                 for (int i = 0; i < lines.Count(); i++)
@@ -181,7 +181,7 @@ namespace ClientApp
                                 }
                                 continue;
                             case 4:
-                                string path2 = "C://Users//Administrator.DOMAINADMINS0//Desktop//Staviti na GIT//ServiceApp//bin//Debug";
+                                string path2 = "C://Users//Administrator.DOMAINADMINS0//Desktop//DataKeep//Vezba5 (resenje)//ServiceApp//bin//Debug//DataBase.txt";
                                 DBParam dbp1 = new DBParam();
                                 List<int> IDs1 = new List<int>();
 
